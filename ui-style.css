@@ -1,4 +1,4 @@
-.OLSKSharedElementTappable {
+.OLSKLayoutElementTappable {
 	cursor: pointer;
 
 	/* DisableTextSelection */
@@ -10,7 +10,7 @@
 	user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
 }
 
-.OLSKSharedButtonNoStyle {
+.OLSKLayoutButtonNoStyle {
 	background: none;
 	border: none;
 	padding: 0;
