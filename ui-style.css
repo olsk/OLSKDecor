@@ -70,3 +70,59 @@
 .OLSKMobileSafariSmoothScrolling {
 	-webkit-overflow-scrolling: touch;
 }
+
+/* OLSKCommon */
+
+:root {
+	--OLSKCommonBodyFont: 'Lucida Grande', sans-serif;
+	--OLSKCommonHeadingFont: 'Helvetica Neue';
+	--OLSKCommonBackground: white;
+	--OLSKCommonForeground: black;
+	--OLSKCommonBorder: 1px solid hsl(0, 0%, 70%);
+	--OLSKCommonInteractiveFill: hsl(0, 0%, 90%);
+	--OLSKCommonInputPadding: 5px;
+}
+
+.OLSKCommon {
+	padding: 10px;
+	max-width: 400px;
+
+	margin: auto;
+
+	background: var(--OLSKCommonBackground);
+	font-family: var(--OLSKCommonBodyFont);
+	font-size: 11pt;
+	color: var(--OLSKCommonForeground);
+}
+
+.OLSKCommon h1, .OLSKCommon h2, .OLSKCommon h3 {
+	font-family: var(--OLSKCommonHeadingFont);
+}
+
+.OLSKCommon hr {
+	height: 1px;
+	border: none;
+
+	background: var(--OLSKCommonForeground);
+}
+
+.OLSKCommon input, .OLSKCommon button {	
+	display: inline-block;
+	padding: var(--OLSKCommonInputPadding);
+	border: var(--OLSKCommonBorder);
+	border-radius: var(--OLSKCommonInputPadding);
+}
+
+.OLSKCommon button {
+	background: var(--OLSKCommonInteractiveFill);
+}
+
+@media (max-width: 760px) {
+
+.OLSKCommon button {
+	display: block;
+	
+	margin-top: 20px;
+}
+
+}
