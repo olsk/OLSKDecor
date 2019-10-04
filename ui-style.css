@@ -136,3 +136,11 @@
 }
 
 }
+
+.OLSKCommon code {
+	display: inline-block;
+	padding: 3px;
+
+	background: hsl(0, 0%, 94%);
+	color: hsl(0, 0%, 20%);
+}
