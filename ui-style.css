@@ -75,6 +75,7 @@
 
 :root {
 	--OLSKCommonContainerPadding: 10px;
+	--OLSKCommonContainerMaxWidth: 400px;
 
 	--OLSKCommonFontFamily: 'Lucida Grande', sans-serif;
 	--OLSKCommonFontSize: 11pt;
@@ -93,7 +94,8 @@
 
 .OLSKCommon {
 	padding: var(--OLSKCommonContainerPadding);
-	max-width: 400px;
+
+	max-width: var(--OLSKCommonContainerMaxWidth);
 
 	margin: auto;
 
