@@ -74,29 +74,37 @@
 /* OLSKCommon */
 
 :root {
-	--OLSKCommonBodyFont: 'Lucida Grande', sans-serif;
-	--OLSKCommonHeadingFont: 'Helvetica Neue';
+	--OLSKCommonContainerPadding: 10px;
+
+	--OLSKCommonFontFamily: 'Lucida Grande', sans-serif;
+	--OLSKCommonFontSize: 11pt;
+
+	--OLSKCommonHeadingFontFamily: 'Helvetica Neue';
+
 	--OLSKCommonBackground: white;
 	--OLSKCommonForeground: black;
+
 	--OLSKCommonBorder: 1px solid hsl(0, 0%, 70%);
+
 	--OLSKCommonInteractiveFill: hsl(0, 0%, 90%);
+
 	--OLSKCommonInputPadding: 5px;
 }
 
 .OLSKCommon {
-	padding: 10px;
+	padding: var(--OLSKCommonContainerPadding);
 	max-width: 400px;
 
 	margin: auto;
 
 	background: var(--OLSKCommonBackground);
-	font-family: var(--OLSKCommonBodyFont);
-	font-size: 11pt;
+	font-family: var(--OLSKCommonFontFamily);
+	font-size: var(--OLSKCommonFontSize);
 	color: var(--OLSKCommonForeground);
 }
 
 .OLSKCommon h1, .OLSKCommon h2, .OLSKCommon h3 {
-	font-family: var(--OLSKCommonHeadingFont);
+	font-family: var(--OLSKCommonHeadingFontFamily);
 }
 
 .OLSKCommon hr {
