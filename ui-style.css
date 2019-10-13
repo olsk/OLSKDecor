@@ -109,6 +109,14 @@
 	font-family: var(--OLSKCommonHeadingFontFamily);
 }
 
+.OLSKCommon ul {
+	padding-left: 30px;
+}
+
+.OLSKCommon li {
+	margin: var(--OLSKCommonContainerPadding) 0;
+}
+
 .OLSKCommon hr {
 	height: 1px;
 	border: none;
