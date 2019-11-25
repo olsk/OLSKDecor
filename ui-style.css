@@ -139,13 +139,13 @@
 	border-radius: var(--OLSKCommonInputPadding);
 }
 
-.OLSKCommon button {
+.OLSKCommon button, .OLSKCommon input[type="submit"] {
 	background: var(--OLSKCommonInteractiveFill);
 }
 
 @media (max-width: 760px) {
 
-.OLSKCommon button {
+.OLSKCommon button, .OLSKCommon input[type="submit"] {
 	display: block;
 	
 	margin-top: 20px;
