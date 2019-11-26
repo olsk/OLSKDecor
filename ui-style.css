@@ -97,7 +97,8 @@
 	--OLSKCommonBackground: white;
 	--OLSKCommonForeground: black;
 
-	--OLSKCommonBorder: 1px solid hsl(0, 0%, 70%);
+	--OLSKCommonBorder: 1px solid var(--OLSKCommonBorderColor);
+	--OLSKCommonBorderColor: rgba(0, 0, 0, 0.3);
 
 	--OLSKCommonInteractiveFill: hsl(0, 0%, 90%);
 
@@ -115,6 +116,19 @@
 	font-family: var(--OLSKCommonFontFamily);
 	font-size: var(--OLSKCommonFontSize);
 	color: var(--OLSKCommonForeground);
+}
+
+.OLSKCommonBorderContainer {
+	padding: 20px 20px;
+	border: var(--OLSKCommonBorder);
+	border-top: none;
+	border-bottom: none;
+}
+
+@media (max-width: 450px) {
+	.OLSKCommonBorderContainer {
+		border: none;
+	}
 }
 
 .OLSKCommon h1, .OLSKCommon h2, .OLSKCommon h3 {
