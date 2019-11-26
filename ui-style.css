@@ -131,7 +131,7 @@
 	}
 }
 
-.OLSKCommon h1, .OLSKCommon h2, .OLSKCommon h3 {
+.OLSKCommon h1, .OLSKCommon h2, .OLSKCommon h3, .OLSKCommon h4 {
 	font-family: var(--OLSKCommonHeadingFontFamily);
 }
 
