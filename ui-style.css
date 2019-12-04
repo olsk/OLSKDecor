@@ -1,3 +1,5 @@
+@media screen and (min-width: 760px) {
+
 .OLSKViewport {
 	position: absolute;
 	top: 0;
@@ -10,13 +12,15 @@
 	flex-direction: column;
 }
 
+}
+
 @media screen and (max-width: 760px) {
 
-.OLSKViewport {
+/*.OLSKViewport {
   position: fixed;
 
   overflow: hidden;
-}
+}*/
 
 }
 
