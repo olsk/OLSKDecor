@@ -22,12 +22,12 @@
   overflow: hidden;
 }*/
 
-.OLSKViewMobileHeader {
+.OLSKMobileViewHeader {
 	position: sticky;
 	top: 0;
 }
 
-.OLSKViewMobileFooter {
+.OLSKMobileViewFooter {
 	position: sticky;
 	bottom: 0;
 }
