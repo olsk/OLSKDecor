@@ -27,6 +27,11 @@
 	top: 0;
 }
 
+.OLSKViewMobileFooter {
+	position: sticky;
+	bottom: 0;
+}
+
 }
 
 .OLSKToolbarButton {
