@@ -22,6 +22,10 @@
   overflow: hidden;
 }*/
 
+.OLSKMobileViewInactive {
+	display: none !important;
+}
+
 .OLSKMobileViewHeader {
 	position: sticky;
 	top: 0;
