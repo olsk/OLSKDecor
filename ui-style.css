@@ -16,11 +16,14 @@
 
 @media screen and (max-width: 760px) {
 
-/*.OLSKViewport {
-  position: fixed;
+.OLSKViewport {
+	min-height: 100vh;
 
-  overflow: hidden;
-}*/
+	/* @OLSKViewportGrid:Parent */
+	display: grid;
+	grid-template-rows: 1fr auto;
+	grid-template-columns: 100%;
+}
 
 .OLSKMobileViewInactive {
 	display: none !important;
