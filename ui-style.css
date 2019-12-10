@@ -26,7 +26,8 @@
 }
 
 .OLSKMobileViewInactive {
-	display: none !important;
+	position: absolute;
+	left: -100vw;
 }
 
 .OLSKMobileViewHeader {
