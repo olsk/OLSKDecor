@@ -196,3 +196,14 @@
 	background: hsl(0, 0%, 94%);
 	color: hsl(0, 0%, 20%);
 }
+
+.OLSKCommonIdentity {
+	width: 70px;
+	display: block;
+
+	margin: 30px auto;
+}
+
+.OLSKCommonIdentity img {
+	width: inherit;
+}
