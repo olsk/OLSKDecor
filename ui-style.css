@@ -7,7 +7,7 @@
 	bottom: 0;
 	left: 0;
 
-	/* @OLSKViewportFlexbox:Parent */
+	/* OLSKViewportFlexbox:Parent */
 	display: flex;
 	flex-direction: column;
 }
@@ -19,7 +19,7 @@
 .OLSKViewport {
 	min-height: 100vh;
 
-	/* @OLSKViewportGrid:Parent */
+	/* OLSKViewportGrid:Parent */
 	display: grid;
 	grid-template-rows: 1fr auto;
 	grid-template-columns: 100%;
