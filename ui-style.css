@@ -105,6 +105,13 @@
 	-webkit-overflow-scrolling: touch;
 }
 
+/* OLSKApp */
+
+:root {
+	--OLSKAppBorderColor: #ddd;
+	--OLSKAppBorderStyle: 1px solid var(--OLSKAppBorderColor);
+}
+
 /* OLSKCommon */
 
 :root {
