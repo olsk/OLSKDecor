@@ -42,24 +42,31 @@
 
 }
 
-.OLSKToolbarButton {
-	display: inline-block;
-	width: 16px;
-	height: 16px;
-}
-
-.OLSKToolbarButton:disabled {
-	opacity: 0.3;
+:root {
+	--OLSKToolbarSize: 20px;
 }
 
 @media screen and (max-width: 760px) {
 
-.OLSKViewport .OLSKToolbarButton {
-	width: 20px;
-	height: 20px;
-	background-size: 20px 20px;
+:root {
+	--OLSKToolbarSize: 24px;
 }
 
+}
+
+.OLSKToolbarButton {
+	display: inline-block;
+	width: var(--OLSKToolbarSize);
+	height: var(--OLSKToolbarSize);
+}
+
+.OLSKToolbarButton > *, .OLSKToolbarButton svg {
+	width: inherit;
+	height: inherit;
+}
+
+.OLSKToolbarButton:disabled {
+	opacity: 0.3;
 }
 
 .OLSKLayoutElementTappable {
