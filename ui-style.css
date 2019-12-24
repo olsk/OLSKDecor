@@ -92,15 +92,6 @@
 	padding: 0;
 }
 
-.OLSKScreenReaderOnly {
-	width: 0px;
-	height: 0px;
-
-	position: absolute;
-	
-	overflow: hidden;
-}
-
 .OLSKMobileSafariSmoothScrolling {
 	-webkit-overflow-scrolling: touch;
 }
