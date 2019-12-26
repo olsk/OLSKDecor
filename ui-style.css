@@ -110,6 +110,40 @@
 	-webkit-overflow-scrolling: touch;
 }
 
+/* OLSKStorageToolbar */
+
+.OLSKStorageToolbar .OLSKToolbarElementGroup:last-of-type {
+	margin: unset !important;
+}
+
+.OLSKStorageToolbar .OSWStorageOptionsHeading, #KVCWriteStorageWidget .OSWStorageOptionsDescription {
+	display: none;
+}
+
+.OLSKStorageToolbar .OSWStorageOptions p {
+	float: right;
+
+	height: 36px;
+	margin: 0 5px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.OLSKStorageToolbar .OSWStorageOptions button {
+	clear: right;
+}
+
+.OLSKStorageToolbar .OSWStorageOptions svg {
+	width: var(--OLSKToolbarSize);
+	height: var(--OLSKToolbarSize);
+}
+
+.OLSKStorageToolbar .OSWOptionRemoteStorage br, .OLSKStorageToolbar .OSWOptionRemoteStorage .OSWOptionRemoteStorageHelpAnchor {
+	display: none;
+}
+
 /* OLSKApp */
 
 :root {
