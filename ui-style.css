@@ -26,8 +26,15 @@
 }
 
 .OLSKMobileViewInactive {
+	display: unset !important;
+
 	position: absolute;
 	left: -200vw;
+}
+
+.OLSKMobileViewInactive:last-child {
+	left: unset;
+	right: 100vw;
 }
 
 .OLSKMobileViewHeader {
