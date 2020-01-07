@@ -144,6 +144,10 @@
 	display: none;
 }
 
+.OLSKStorageToolbar .OSWConnected button {
+	margin: 0 !important;
+}
+
 /* OLSKApp */
 
 :root {
