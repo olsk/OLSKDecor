@@ -139,6 +139,9 @@
 
 .OLSKStorageToolbar .OSWStorageOptions button {
 	clear: right;
+
+	font-size: 10px;
+	margin: 0 !important;
 }
 
 .OLSKStorageToolbar .OSWStorageOptions svg {
