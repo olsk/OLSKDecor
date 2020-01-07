@@ -114,12 +114,16 @@
 
 .OLSKStorageToolbar .OLSKToolbarElementGroup:last-of-type {
 	margin: unset !important;
-
-	flex-grow: 1;
 }
 
-.OLSKStorageToolbar .OSWRoot {
-	align-items: stretch !important;
+@media (max-width: 450px) {
+	.OLSKStorageToolbar .OLSKToolbarElementGroup:last-of-type {
+		flex-grow: 1;
+	}
+
+	.OLSKStorageToolbar .OSWRoot {
+		align-items: stretch !important;
+	}
 }
 
 .OLSKStorageToolbar .OSWStorageOptionsHeading, #KVCWriteStorageWidget .OSWStorageOptionsDescription {
@@ -139,9 +143,13 @@
 
 .OLSKStorageToolbar .OSWStorageOptions button {
 	clear: right;
+}
 
-	font-size: 10px;
-	margin: 0 !important;
+@media (max-width: 450px) {
+	.OLSKStorageToolbar .OSWStorageOptions button {
+		font-size: 10px;
+		margin: 0 !important;
+	}
 }
 
 .OLSKStorageToolbar .OSWStorageOptions svg {
