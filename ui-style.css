@@ -114,6 +114,12 @@
 
 .OLSKStorageToolbar .OLSKToolbarElementGroup:last-of-type {
 	margin: unset !important;
+
+	flex-grow: 1;
+}
+
+.OLSKStorageToolbar .OSWRoot {
+	align-items: stretch !important;
 }
 
 .OLSKStorageToolbar .OSWStorageOptionsHeading, #KVCWriteStorageWidget .OSWStorageOptionsDescription {
@@ -124,7 +130,7 @@
 	float: right;
 
 	height: 36px;
-	margin: 0 5px;
+	margin: 0 var(--OLSKCommonInputPadding);
 
 	display: flex;
 	flex-direction: column;
@@ -140,12 +146,42 @@
 	height: var(--OLSKToolbarSize);
 }
 
+.OLSKStorageToolbar .OSWOptionRemoteStorage form {
+	display: flex;
+}
+
+.OLSKStorageToolbar .OSWOptionRemoteStorage form .OSWOptionRemoteStorageAddressField {
+	padding: var(--OLSKCommonInputPadding);
+	border: var(--OLSKCommonBorder);
+	border-radius: var(--OLSKCommonInputPadding);
+
+	flex-grow: 1;
+}
+
+.OLSKStorageToolbar .OSWOptionRemoteStorage form .OSWOptionRemoteStorageConnectButton {
+	padding: var(--OLSKCommonInputPadding);
+	border: var(--OLSKCommonBorder);
+	border-radius: var(--OLSKCommonInputPadding);
+
+	margin-right: 0;
+
+	background: var(--OLSKCommonInteractiveFill);
+}
+
 .OLSKStorageToolbar .OSWOptionRemoteStorage br, .OLSKStorageToolbar .OSWOptionRemoteStorage .OSWOptionRemoteStorageHelpAnchor {
 	display: none;
 }
 
 .OLSKStorageToolbar .OSWConnected button {
 	margin: 0 !important;
+}
+
+.OLSKStorageToolbar .OSWRootRemoteStorageError {
+	margin: var(--OLSKCommonInputPadding);
+	margin-bottom: 0;
+	
+	line-height: 1 !important;
+	font-weight: bold;
 }
 
 /* OLSKApp */
