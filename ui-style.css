@@ -157,6 +157,11 @@
 	height: var(--OLSKToolbarSize);
 }
 
+.OLSKStorageToolbar .OSWOptionRemoteStorage {
+	display: flex;
+	align-items: center;
+}
+
 .OLSKStorageToolbar .OSWOptionRemoteStorage form {
 	display: flex;
 }
@@ -177,10 +182,14 @@
 	margin-right: 0;
 
 	background: var(--OLSKCommonInteractiveFill);
+}	
+
+.OLSKStorageToolbar .OSWOptionRemoteStorage br {
+	display: none;
 }
 
-.OLSKStorageToolbar .OSWOptionRemoteStorage br, .OLSKStorageToolbar .OSWOptionRemoteStorage .OSWOptionRemoteStorageHelpAnchor {
-	display: none;
+.OLSKStorageToolbar .OSWOptionRemoteStorage .OSWOptionRemoteStorageHelpAnchor {
+	margin-left: 5px;
 }
 
 .OLSKStorageToolbar .OSWConnected button {
