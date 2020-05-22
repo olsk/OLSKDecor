@@ -110,6 +110,12 @@
 	-webkit-overflow-scrolling: touch;
 }
 
+.OLSKMobileSafariRemoveDefaultInputStyle {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
 /* OLSKStorageToolbar */
 
 .OLSKStorageToolbar .OLSKToolbarElementGroup:last-of-type {
