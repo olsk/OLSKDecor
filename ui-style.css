@@ -198,6 +198,10 @@
 	margin-left: 5px;
 }
 
+.OLSKStorageToolbar .OSWConnected {
+	padding: 10px;
+}
+
 .OLSKStorageToolbar .OSWConnected button {
 	margin: 0 !important;
 }
