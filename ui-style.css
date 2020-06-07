@@ -49,6 +49,8 @@
 
 }
 
+/* OLSKToolbar */
+
 :root {
 	--OLSKToolbarSize: 20px;
 }
@@ -60,6 +62,8 @@
 }
 
 }
+
+/* OLSKToolbarButton */
 
 .OLSKToolbarButton {
 	display: inline-block;
