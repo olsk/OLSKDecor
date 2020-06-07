@@ -51,14 +51,65 @@
 
 /* OLSKToolbar */
 
-:root {
+.OLSKToolbar {
 	--OLSKToolbarSize: 20px;
+	--OLSKToolbarBackground: #fff;
+
+	padding: 0 4px;
+
+	background: var(--OLSKToolbarBackground);
+
+	/* Firefox header spacing */
+	line-height: 0;
+
+	/* OLSKToolbarFlexbox:Parent */
+	display: flex; 
+	align-items: center;
 }
 
 @media screen and (max-width: 760px) {
 
-:root {
+.OLSKToolbar {
 	--OLSKToolbarSize: 24px;
+
+	min-height: 52px;
+}
+
+}
+
+.OLSKViewport .OLSKToolbar {
+	/* OLSKViewportFlexbox:Child */
+	flex-shrink: 0;
+}
+
+.OLSKIsLoading .OLSKToolbar * {
+	visibility: hidden;
+}
+
+.OLSKToolbarJustify {
+	/* OLSKToolbarFlexbox:Parent */
+	justify-content: space-between;
+}
+
+.OLSKToolbarFlexible {
+	/* OLSKToolbarFlexbox:Child */
+	flex-grow: 1;
+}
+
+/* OLSKToolbarElementGroup */
+
+.OLSKToolbarElementGroup {
+	margin: 10px 2px;
+}
+
+.OLSKToolbarElementGroup button {
+	margin: 0 2px;
+}
+
+@media screen and (max-width: 760px) {
+
+.OLSKToolbarElementGroup button {
+	margin: 0 8px;
 }
 
 }
