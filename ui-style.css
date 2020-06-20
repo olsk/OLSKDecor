@@ -187,7 +187,7 @@
 	}
 }
 
-.OLSKStorageToolbar .OSWStorageOptionsHeading, #KVCWriteStorageWidget .OSWStorageOptionsDescription {
+.OLSKStorageToolbar .OSWStorageOptionsHeading, .OLSKStorageToolbar .OSWStorageOptionsDescription {
 	display: none;
 }
 
