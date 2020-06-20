@@ -251,6 +251,8 @@
 
 .OLSKStorageToolbar .OSWOptionRemoteStorage .OSWOptionRemoteStorageHelpAnchor {
 	margin-left: 5px;
+
+	flex-shrink: 0;
 }
 
 .OLSKStorageToolbar .OSWConnected {
