@@ -36,6 +36,7 @@
 
 .OLSKMobileViewInactive:last-child {
 	left: unset;
+	top: 0;
 	right: 100vw;
 }
 
