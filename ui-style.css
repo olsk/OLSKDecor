@@ -270,10 +270,16 @@
 
 .OLSKStorageToolbar .OSWConnected {
 	padding: 10px;
+
+	/* OSWConnectedFlexbox:Parent */
+	display: flex;
 }
 
-.OLSKStorageToolbar .OSWConnected button {
-	margin: 0 !important;
+.OLSKStorageToolbar .OSWConnected .OSWConnectedAddress {
+	margin: 0 5px;
+
+	/* OSWConnectedFlexbox:Child */
+	align-self: center;
 }
 
 .OLSKStorageToolbar .OSWRootRemoteStorageError {
