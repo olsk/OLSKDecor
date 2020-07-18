@@ -52,6 +52,36 @@
 
 }
 
+/* OLSKViewportContent */
+
+@media screen and (min-width: 760px) {
+
+.OLSKViewportContent {
+	--OLSKViewportMasterWidth: 300px;
+	/* Chrome/Firefox scroll flexbox child */
+	overflow: auto;
+
+	/* OLSKViewportFlexbox:Child */
+	flex-grow: 1;
+
+	/* OLSKViewportContentFlexbox:Parent */
+	display: flex;
+}
+
+.OLSKViewportContent .OLSKViewportMaster {
+	/* OLSKViewportContentFlexbox:Child */
+	flex-basis: var(--OLSKViewportMasterWidth);
+	flex-shrink: 0;
+}
+
+.OLSKViewportContent .OLSKViewportDetail {
+	/* OLSKViewportContentFlexbox:Child */
+	flex-grow: 1;
+}
+
+}
+
+
 /* OLSKVisibility */
 
 @media screen and (min-width: 760px) {
