@@ -214,6 +214,44 @@
 	appearance: none;
 }
 
+/* OLSKMasterList */
+
+.OLSKIsLoading .OLSKMasterListBody {
+	visibility: hidden;
+}
+
+.OLSKMasterList {
+	/* OLSKMasterListFlexbox:Parent */
+	display: flex;
+	flex-direction: column;
+}
+
+.OLSKMasterListToolbar {
+	/* OLSKMasterListFlexbox:Child */
+	flex-shrink: 0;
+}
+
+.OLSKMasterListBody {
+	overflow: auto;
+	
+	/* OLSKMasterListFlexbox:Child */
+	flex-grow: 1;
+}
+
+.OLSKMasterListBody .OLSKResultsListItemSelected .OLSKMasterListItem {
+	background: #e6e6e6;
+}
+
+@media screen and (min-width: 760px) {
+
+.OLSKMasterListFocused .OLSKResultsListItemSelected .OLSKMasterListItem {
+	background: #1a81ff;
+	color: white;
+}
+
+}
+
+
 /* OLSKStorageToolbar */
 
 .OLSKStorageToolbar .OLSKToolbarElementGroup:last-of-type {
