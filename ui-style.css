@@ -417,6 +417,14 @@
 	font-family: var(--OLSKCommonHeadingFontFamily);
 }
 
+.OLSKCommon h1 {
+	font-size: 18pt;
+}
+
+.OLSKCommon h2 {
+	font-size: 12pt;
+}
+
 .OLSKCommon ul {
 	padding-left: 30px;
 }
