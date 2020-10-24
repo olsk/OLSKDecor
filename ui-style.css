@@ -436,20 +436,20 @@
 	background: var(--OLSKCommonForeground);
 }
 
-.OLSKCommon input, .OLSKCommon button {	
+.OLSKCommon input, .OLSKCommon button, .OLSKCommonButton {	
 	display: inline-block;
 	padding: var(--OLSKCommonInputPadding);
 	border: var(--OLSKCommonBorder);
 	border-radius: var(--OLSKCommonInputPadding);
 }
 
-.OLSKCommon button, .OLSKCommon input[type="submit"] {
+.OLSKCommon button, .OLSKCommonButton, .OLSKCommon input[type="submit"] {
 	background: var(--OLSKCommonInteractiveFill);
 }
 
 @media (max-width: 760px) {
 
-.OLSKCommon button, .OLSKCommon input[type="submit"] {
+.OLSKCommon button, .OLSKCommonButton, .OLSKCommon input[type="submit"] {
 	display: block;
 	
 	margin-top: 20px;
