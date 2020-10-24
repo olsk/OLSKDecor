@@ -447,6 +447,11 @@
 	background: var(--OLSKCommonInteractiveFill);
 }
 
+a.OLSKCommonButton {
+	color: var(--OLSKCommonForeground);
+	text-decoration: none;
+}
+
 @media (max-width: 760px) {
 
 .OLSKCommon button, .OLSKCommonButton, .OLSKCommon input[type="submit"] {
