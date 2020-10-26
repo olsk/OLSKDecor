@@ -457,7 +457,7 @@ a.OLSKCommonButton {
 	font-size: 110%;
 }
 
-@media (max-width: 760px) {
+/*@media (max-width: 760px) {
 
 .OLSKCommon button, .OLSKCommonButton, .OLSKCommon input[type="submit"] {
 	display: block;
@@ -465,7 +465,7 @@ a.OLSKCommonButton {
 	margin-top: 20px;
 }
 
-}
+}*/
 
 .OLSKCommon code {
 	display: inline-block;
