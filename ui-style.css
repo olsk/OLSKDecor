@@ -457,6 +457,12 @@ a.OLSKCommonButton {
 	font-size: 110%;
 }
 
+.OLSKCommonButtonDestructive {
+	border-color: #800002;
+	background: #ffefef;
+	color: #800002;
+}
+
 /*@media (max-width: 760px) {
 
 .OLSKCommon button, .OLSKCommonButton, .OLSKCommon input[type="submit"] {
