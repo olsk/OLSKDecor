@@ -452,6 +452,11 @@ a.OLSKCommonButton {
 	text-decoration: none;
 }
 
+.OLSKCommonButtonPrimary {
+	padding: 8px 16px;
+	font-size: 110%;
+}
+
 @media (max-width: 760px) {
 
 .OLSKCommon button, .OLSKCommonButton, .OLSKCommon input[type="submit"] {
