@@ -110,6 +110,14 @@
 	align-items: center;
 }
 
+.OLSKToolbarBorderTop {
+	border-top: var(--OLSKCommonBorder);
+}
+
+.OLSKToolbarBorderBottom {
+	border-bottom: var(--OLSKCommonBorder);
+}
+
 @media screen and (max-width: 760px) {
 
 .OLSKToolbar {
