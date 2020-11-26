@@ -470,6 +470,12 @@ a.OLSKCommonButton {
 	color: #800002;
 }
 
+.OLSKCommonAlert {
+	padding: 10px;
+
+	background: #eeeeee;
+}
+
 /*@media (max-width: 760px) {
 
 .OLSKCommon button, .OLSKCommonButton, .OLSKCommon input[type="submit"] {
