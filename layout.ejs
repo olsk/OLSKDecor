@@ -53,6 +53,10 @@
 	}
 
 	let pathToTag = function (e) {
+		if (e.indexOf('http') === 0) {
+			return `<script src="${ e }"></script>`;
+		}
+
 		let path = (e[0] === '/' ? '' : `/${ locals.OLSKSharedPageControllerSlug }/`).concat(e);
 
 		if (path.split('.').pop() === 'css') {
