@@ -102,6 +102,8 @@
 
 	outputData.push(...(locals.OLSKPageAssets || []).map(pathToTag));
 
+	outputData.push(...(locals.OLSKPageHeadLines || []));
+
 	return outputData.join('\n\t');
 })(); %>
 </head>
