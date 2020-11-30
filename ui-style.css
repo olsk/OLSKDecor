@@ -504,3 +504,28 @@ a.OLSKCommonButton {
 .OLSKCommonRootLink img {
 	width: inherit;
 }
+
+/* OLSKCommonIdentityCard */
+
+.OLSKCommonIdentityCard {
+	margin: 2em 0;
+
+	display: flex;
+	align-items: center;
+}
+
+.OLSKCommonIdentityCard > img {
+	width: 70px;
+
+	margin-right: 4px;
+}
+
+.OLSKCommonIdentityCard > :last-child > :nth-child(1) {
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: var(--OLSKCommonHeadingFontFamily);
+}
+
+.OLSKCommonIdentityCard > :last-child > :nth-child(2) {
+	font-style: oblique;
+}
