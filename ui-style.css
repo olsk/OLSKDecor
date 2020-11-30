@@ -505,27 +505,34 @@ a.OLSKCommonButton {
 	width: inherit;
 }
 
-/* OLSKCommonIdentityCard */
+/* OLSKCommonCard */
 
-.OLSKCommonIdentityCard {
-	margin: 2em 0;
-
+.OLSKCommonCard {
 	display: flex;
 	align-items: center;
 }
 
-.OLSKCommonIdentityCard > img {
+.OLSKCommonCard > img {
 	width: 70px;
 
 	margin-right: 4px;
 }
 
-.OLSKCommonIdentityCard > :last-child > :nth-child(1) {
+.OLSKCommonCard > :last-child > :nth-child(1) {
 	display: block;
 	
-	font-size: 24pt;
 	font-weight: bold;
 	font-family: var(--OLSKCommonHeadingFontFamily);
+}
+
+/* OLSKCommonIdentityCard */
+
+.OLSKCommonIdentityCard {
+	margin: 2em 0;
+}
+
+.OLSKCommonIdentityCard > :last-child > :nth-child(1) {
+	font-size: 24pt;
 }
 
 .OLSKCommonIdentityCard > :last-child > :nth-child(2) {
