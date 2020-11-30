@@ -494,13 +494,13 @@ a.OLSKCommonButton {
 	color: hsl(0, 0%, 20%);
 }
 
-.OLSKCommonIdentity {
+.OLSKCommonRootLink {
 	width: 70px;
 	display: block;
 
 	margin: 30px auto;
 }
 
-.OLSKCommonIdentity img {
+.OLSKCommonRootLink img {
 	width: inherit;
 }
