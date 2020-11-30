@@ -521,6 +521,8 @@ a.OLSKCommonButton {
 }
 
 .OLSKCommonIdentityCard > :last-child > :nth-child(1) {
+	display: block;
+	
 	font-size: 24pt;
 	font-weight: bold;
 	font-family: var(--OLSKCommonHeadingFontFamily);
