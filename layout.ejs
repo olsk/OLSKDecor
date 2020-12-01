@@ -92,7 +92,7 @@
 		
 		outputData.push(`<script type="text/javascript">
 		window.OLSKCanonicalFor = function(routeConstant, optionalParams) {
-			return OLSKRouting.OLSKRoutingCanonicalPathWithRoutePathAndOptionalParams((${ JSON.stringify(OLSKPagePublicRouteKeys.reduce(function (map, e) {
+			return OLSKRouting.OLSKRoutingCanonicalPath((${ JSON.stringify(OLSKPagePublicRouteKeys.reduce(function (map, e) {
 				map[e] = OLSKRouteObjectFor(e).OLSKRoutePath;
 				return map;
 			}, {})) })[routeConstant], optionalParams);
