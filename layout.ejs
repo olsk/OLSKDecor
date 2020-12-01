@@ -75,7 +75,7 @@
 			].map(pathToTag));
 		
 		outputData.push(`<script type="text/javascript">
-		window.OLSKFormatted = OLSKString.OLSKStringWithFormat;
+		window.OLSKFormatted = OLSKString.OLSKStringFormatted;
 		window.OLSKLocalized = function(translationConstant) {
 			return OLSKInternational.OLSKInternationalLocalizedString(translationConstant, ${ JSON.stringify(OLSKPagePublicLocalizedStringKeys.reduce(function(map, e) {
 					map[e] = OLSKLocalized(e);
