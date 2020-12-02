@@ -70,8 +70,8 @@
 
 	if (locals.OLSKPagePublicLocalizedStringKeys) {
 		outputData.push(...[
-			'/_shared/__external/OLSKInternational/main.js',
-			'/_shared/__external/OLSKString/main.js',
+			`/${ locals._OLSKPageAssetFolder || '_shared/__external' }/OLSKInternational/main.js`,
+			`/${ locals._OLSKPageAssetFolder || '_shared/__external' }/OLSKString/main.js`,
 			].map(pathToTag));
 		
 		outputData.push(`<script type="text/javascript">
@@ -87,7 +87,7 @@
 
 	if (locals.OLSKPagePublicRouteKeys) {
 		outputData.push(...[
-			'/_shared/__external/OLSKRouting/main.js',
+			`/${ locals._OLSKPageAssetFolder || '_shared/__external' }/OLSKRouting/main.js`,
 			].map(pathToTag));
 		
 		outputData.push(`<script type="text/javascript">
