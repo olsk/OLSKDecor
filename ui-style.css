@@ -417,6 +417,9 @@
 }
 
 .OLSKCommon h1 {
+	padding-bottom: 2px;
+	border-bottom: 1px solid var(--OLSKCommonForeground);
+
 	font-size: 18pt;
 }
 
