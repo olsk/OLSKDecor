@@ -510,7 +510,7 @@ a.OLSKCommonButton {
 .OLSKCommonCard > img {
 	width: 70px;
 
-	margin-right: 4px;
+	margin-right: 8px;
 }
 
 .OLSKCommonCard > :last-child > :nth-child(1) {
