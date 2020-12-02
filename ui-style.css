@@ -364,13 +364,6 @@
 	font-weight: bold;
 }
 
-/* OLSKApp */
-
-:root {
-	--OLSKAppBorderColor: #ddd;
-	--OLSKAppBorderStyle: 1px solid var(--OLSKAppBorderColor);
-}
-
 /* OLSKCommon */
 
 :root {
