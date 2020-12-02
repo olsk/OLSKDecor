@@ -53,8 +53,8 @@
 		outputData.push(`<link rel="icon" href="data:;base64,=">`); // https://stackoverflow.com/questions/1321878/how-to-prevent-favicon-ico-requests
 	}
 
-	if (locals.OLSKPageTouchIconURL) {
-		outputData.push(`<link rel="apple-touch-icon" href="${ locals.OLSKPageTouchIconURL }">`);
+	if (process.env.OLSK_LAYOUT_TOUCH_ICON_URL) {
+		outputData.push(`<link rel="apple-touch-icon" href="${ process.env.OLSK_LAYOUT_TOUCH_ICON_URL }">`);
 	}
 
 	let pathToTag = function (e) {
