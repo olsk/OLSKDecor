@@ -507,7 +507,7 @@ a.OLSKCommonButton {
 	align-items: center;
 }
 
-.OLSKCommonCard > img {
+.OLSKCommonCard > img, .OLSKCommonCard > a img {
 	width: 70px;
 
 	margin-right: 8px;
