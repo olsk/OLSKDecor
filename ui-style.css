@@ -1,3 +1,40 @@
+:root {
+	--OLSKCommonContainerPadding: 10px;
+	--OLSKCommonContainerMaxWidth: 400px;
+
+	--OLSKCommonFontFamily: 'Lucida Grande', sans-serif;
+	--OLSKCommonFontSize: 10.5pt;
+
+	--OLSKCommonHeadingFontFamily: 'Helvetica Neue';
+
+	--OLSKCommonBackground: white;
+	--OLSKCommonForeground: black;
+
+	--OLSKCommonBorderColor: rgba(0, 0, 0, 0.3);
+	--OLSKCommonBorder: 1px solid var(--OLSKCommonBorderColor);
+
+	--OLSKCommonEdgeColor: #ddd;
+	--OLSKCommonEdgeBorder: 1px solid var(--OLSKCommonEdgeColor);
+
+	--OLSKCommonInteractiveFill: hsl(0, 0%, 90%);
+
+	--OLSKCommonInputPadding: 5px;
+}
+
+/* OLSKCommonEdge */
+
+.OLSKCommonEdgeTop {
+	border-top: var(--OLSKCommonEdgeBorder);
+}
+
+.OLSKCommonEdgeRight {
+	border-right: var(--OLSKCommonEdgeBorder);
+}
+
+.OLSKCommonEdgeBottom {
+	border-bottom: var(--OLSKCommonEdgeBorder);
+}
+
 /* OLSKViewport */
 
 @media screen and (min-width: 760px) {
@@ -107,14 +144,6 @@
 	/* OLSKToolbarFlexbox:Parent */
 	display: flex; 
 	align-items: center;
-}
-
-.OLSKToolbarBorderTop {
-	border-top: var(--OLSKCommonBorder);
-}
-
-.OLSKToolbarBorderBottom {
-	border-bottom: var(--OLSKCommonBorder);
 }
 
 @media screen and (max-width: 760px) {
@@ -366,26 +395,6 @@
 
 /* OLSKCommon */
 
-:root {
-	--OLSKCommonContainerPadding: 10px;
-	--OLSKCommonContainerMaxWidth: 400px;
-
-	--OLSKCommonFontFamily: 'Lucida Grande', sans-serif;
-	--OLSKCommonFontSize: 10.5pt;
-
-	--OLSKCommonHeadingFontFamily: 'Helvetica Neue';
-
-	--OLSKCommonBackground: white;
-	--OLSKCommonForeground: black;
-
-	--OLSKCommonBorder: 1px solid var(--OLSKCommonBorderColor);
-	--OLSKCommonBorderColor: rgba(0, 0, 0, 0.3);
-
-	--OLSKCommonInteractiveFill: hsl(0, 0%, 90%);
-
-	--OLSKCommonInputPadding: 5px;
-}
-
 .OLSKCommon {
 	padding: var(--OLSKCommonContainerPadding);
 
@@ -507,7 +516,7 @@ a.OLSKCommonButton {
 	align-items: center;
 }
 
-.OLSKCommonCard > img, .OLSKCommonCard > a img {
+.OLSKCommonCard > img {
 	width: 70px;
 
 	margin-right: 8px;
