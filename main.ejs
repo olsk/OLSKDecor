@@ -27,7 +27,7 @@
 	}));
 
 	if (locals.OLSKSharedActiveRouteConstant) {
-		outputData.push(`<link rel="canonical" href="${ OLSKCanonicalFor(locals.OLSKSharedActiveRouteConstant) }" />`);
+		outputData.push(`<link rel="canonical" href="${ OLSKCanonical(locals.OLSKSharedActiveRouteConstant) }" />`);
 	}
 
 	outputData.push(...(locals.OLSKSharedPageLanguagesAvailable || []).map(function (e) {
@@ -100,7 +100,7 @@
 			].map(pathToTag));
 		
 		outputData.push(`<script type="text/javascript">
-		window.OLSKCanonicalFor = function(routeConstant, optionalParams) {
+		window.OLSKCanonical = function(routeConstant, optionalParams) {
 			return OLSKRouting.OLSKRoutingCanonicalPath((${ JSON.stringify(OLSKPagePublicRouteKeys.reduce(function (map, e) {
 				map[e] = OLSKRouteObjectFor(e).OLSKRoutePath;
 				return map;
