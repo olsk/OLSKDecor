@@ -517,7 +517,9 @@ a.OLSKCommonButton {
 }
 
 .OLSKCommonCard > img {
-	width: 70px;
+	--OLSKCommonCardImageSize: 70px;
+	width: var(--OLSKCommonCardImageSize);
+	min-width: var(--OLSKCommonCardImageSize);
 
 	margin-right: 8px;
 }
@@ -541,4 +543,17 @@ a.OLSKCommonButton {
 
 .OLSKCommonIdentityCard > :last-child > :nth-child(2) {
 	font-style: oblique;
+}
+
+/* OLSKCommonFeatureCard */
+
+.OLSKCommonFeatureCard {
+	margin: 1em 0;
+
+	font-size: 10.5pt;
+}
+
+.OLSKCommonFeatureCard > :last-child > :nth-child(1) {
+	font-family: unset;
+	font-size: 13pt;
 }
