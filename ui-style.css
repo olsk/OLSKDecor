@@ -533,18 +533,18 @@ a.OLSKCommonButton {
 	font-weight: bold;
 }
 
-/* OLSKCommonIdentityCard */
+/* OLSKCommonCrownCard */
 
-.OLSKCommonIdentityCard {
+.OLSKCommonCrownCard {
 	margin: 2em 0;
 }
 
-.OLSKCommonIdentityCard > :last-child > :nth-child(1) {
+.OLSKCommonCrownCard > :last-child > :nth-child(1) {
 	font-family: var(--OLSKCommonHeadingFontFamily);
 	font-size: 24pt;
 }
 
-.OLSKCommonIdentityCard > :last-child > :nth-child(2) {
+.OLSKCommonCrownCard > :last-child > :nth-child(2) {
 	font-style: oblique;
 }
 
