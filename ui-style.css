@@ -561,3 +561,9 @@ a.OLSKCommonButton {
 .OLSKCommonFeatureCard > :last-child > :nth-child(1) {
 	font-family: unset;
 }
+
+/* OLSKCommonWhatIsIt */
+
+.OLSKCommonWhatIsIt {	
+	font-weight: bold;
+}
