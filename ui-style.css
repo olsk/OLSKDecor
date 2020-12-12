@@ -410,7 +410,7 @@
 	margin: auto;
 }
 
-.OLSKCommonBorderContainer {
+.OLSKCommonBordered {
 	padding: 20px 20px;
 	border: var(--OLSKCommonBorder);
 	border-top: none;
@@ -418,7 +418,7 @@
 }
 
 @media (max-width: 450px) {
-	.OLSKCommonBorderContainer {
+	.OLSKCommonBordered {
 		border: none;
 	}
 }
