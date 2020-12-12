@@ -398,14 +398,16 @@
 .OLSKCommon {
 	padding: var(--OLSKCommonContainerPadding);
 
-	max-width: var(--OLSKCommonContainerMaxWidth);
-
-	margin: auto;
-
 	background: var(--OLSKCommonBackground);
 	font-family: var(--OLSKCommonFontFamily);
 	font-size: var(--OLSKCommonFontSize);
 	color: var(--OLSKCommonForeground);
+}
+
+.OLSKCommonCapped {
+	max-width: var(--OLSKCommonContainerMaxWidth);
+
+	margin: auto;
 }
 
 .OLSKCommonBorderContainer {
