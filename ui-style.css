@@ -567,3 +567,35 @@ a.OLSKCommonButton {
 .OLSKCommonWhatIsIt {	
 	font-weight: bold;
 }
+
+/* OLSKCommonVideoList */
+
+.OLSKCommonVideoList {
+	max-width: 350px;
+
+	margin: auto;
+}
+
+.OLSKCommonVideoListItem {
+	--OLSKCommonVideoBorderWidth: 13;
+	--OLSKCommonVideoWide: 750;
+	--OLSKCommonVideoHigh: 1334;
+	
+	padding-top: calc(((var(--OLSKCommonVideoHigh) + var(--OLSKCommonVideoBorderWidth) * var(--OLSKCommonVideoBorderWidth)) / (var(--OLSKCommonVideoWide) + var(--OLSKCommonVideoBorderWidth) * var(--OLSKCommonVideoBorderWidth))) * 100.00%);
+	border: calc(var(--OLSKCommonVideoBorderWidth) * 1px) var(--OLSKCommonInteractiveFill) solid;
+	border-radius: 10px;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.OLSKCommonVideoListItem iframe {
+	border: none;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
