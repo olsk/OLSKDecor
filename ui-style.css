@@ -449,7 +449,7 @@
 	background: var(--OLSKCommonForeground);
 }
 
-.OLSKCommon input, .OLSKCommon button, .OLSKCommonButton {	
+.OLSKCommon input, .OLSKCommon button, .OLSKCommonButton, .OLSKCommon input[type="submit"], .OLSKCommon textarea {	
 	display: inline-block;
 	padding: var(--OLSKCommonInputPadding);
 	border: var(--OLSKCommonBorder);
@@ -598,4 +598,38 @@ a.OLSKCommonButton {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+/* OLSKCommonForm */
+
+.OLSKCommonForm {
+	--OLSKCommonInputPadding: 3px;
+}
+
+.OLSKCommonForm p:nth-child(1) {
+	margin-top: 0;
+}
+
+.OLSKCommonForm input[type=text], .OLSKCommonForm textarea {
+	width: 50%;
+	padding: 5px 7px;
+	border: 1px solid var(--OLSKCommonEdgeColor);
+	line-height: 1.7;
+}
+
+@media screen and (max-width: 760px) {
+
+	.OLSKCommonForm input[type=text], .OLSKCommonForm textarea {
+		width: 90%;
+		padding: 10px;
+	}
+
+}
+
+.OLSKCommonForm textarea {
+	min-height: 200px;
+}
+
+.OLSKCommonForm hr {
+	background: #e6e6e6;
 }
