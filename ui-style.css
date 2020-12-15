@@ -518,7 +518,7 @@ a.OLSKCommonButton {
 	align-items: center;
 }
 
-.OLSKCommonCard > img {
+.OLSKCommonCard > img, .OLSKCommonCard > a img {
 	--OLSKCommonCardImageSize: 70px;
 
 	width: var(--OLSKCommonCardImageSize);
@@ -531,6 +531,7 @@ a.OLSKCommonButton {
 	display: block;
 	
 	font-weight: bold;
+	font-family: var(--OLSKCommonHeadingFontFamily);
 }
 
 /* OLSKCommonCrownCard */
@@ -540,7 +541,6 @@ a.OLSKCommonButton {
 }
 
 .OLSKCommonCrownCard > :last-child > :nth-child(1) {
-	font-family: var(--OLSKCommonHeadingFontFamily);
 	font-size: 24pt;
 }
 
