@@ -32,7 +32,7 @@
 }
 
 .OLSKCommonEdgeBottom {
-	border-bottom: var(--OLSKCommonEdgeBorder);
+	border-bottom: var(--OLSKCommonEdgeBorder) !important;
 }
 
 /* OLSKViewport */
