@@ -442,6 +442,16 @@
 	padding-left: 30px;
 }
 
+.OLSKCommon blockquote {
+	margin-left: 0;
+	padding-left: var(--OLSKCommonContainerPadding);
+	border-left: var(--OLSKCommonBorder);
+
+	font-style: oblique;
+	font-family: Georgia, serif;
+	font-size: 9.5pt;
+}
+
 .OLSKCommon hr {
 	height: 1px;
 	border: none;
@@ -560,6 +570,20 @@ a.OLSKCommonButton {
 
 .OLSKCommonFeatureCard > :last-child > :nth-child(1) {
 	font-family: unset;
+}
+
+/* OLSKTestimonialListItem */
+
+.OLSKTestimonialListItem {
+	padding: var(--OLSKCommonContainerPadding);
+
+	margin: 1em 0;
+
+	background: var(--OLSKCommonInteractiveFill);
+}
+
+.OLSKTestimonialListItemAuthor {
+	font-size: 8pt;
 }
 
 /* OLSKCommonWhatIsIt */
