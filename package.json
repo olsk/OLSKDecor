@@ -1,5 +1,4 @@
 {
-  "name": "OLSKLayout",
-  "private": true,
+  "name": "OLSKDecor",
   "main": "main.ejs"
 }

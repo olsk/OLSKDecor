@@ -482,7 +482,7 @@ a.OLSKCommonButton {
 
 .OLSKCommonButtonDestructive {
 	border-color: #800002;
-	background: #ffefef;
+	background: #ffefef !important;
 	color: #800002;
 }
 
