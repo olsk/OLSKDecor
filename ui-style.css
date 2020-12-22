@@ -431,6 +431,8 @@
 	padding-bottom: 2px;
 	border-bottom: 1px solid var(--OLSKCommonForeground);
 
+	margin-top: 40px;
+
 	font-size: 18pt;
 }
 
@@ -457,6 +459,17 @@
 	border: none;
 
 	background: var(--OLSKCommonForeground);
+}
+
+.OLSKDecor table {
+	width: 100%;
+
+	margin: 20px 0;
+}
+
+.OLSKDecor table tr td {
+	padding: 3px 0;
+	border-top: var(--OLSKCommonEdgeBorder);
 }
 
 .OLSKDecor input, .OLSKDecor button, .OLSKDecorPress, .OLSKDecor input[type="submit"], .OLSKDecor textarea {	
@@ -490,7 +503,17 @@ a.OLSKDecorPress {
 
 .OLSKDecorNotice {
 	padding: 10px;
-	border: 1px solid var(--OLSKCommonForeground)
+	border: 1px solid var(--OLSKCommonForeground);
+
+	margin: 20px 0;
+}
+
+.OLSKDecorNotice p:first-child {
+	margin-top: 0;
+}
+
+.OLSKDecorNotice p:last-child {
+	margin-bottom: 0;
 }
 
 .OLSKCommonAlert {
