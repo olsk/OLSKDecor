@@ -210,7 +210,7 @@
 	opacity: 0.3;
 }
 
-.OLSKLayoutElementTappable {
+.OLSKDecorTappable {
 	cursor: pointer;
 
 	/* DisableTextSelection */
@@ -222,7 +222,7 @@
 	user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
 }
 
-.OLSKLayoutElementTextVisual {
+.OLSKDecorTextVisual {
 	cursor: default;
 
 	/* DisableTextSelection */
@@ -234,7 +234,7 @@
 	user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
 }
 
-.OLSKLayoutButtonNoStyle {
+.OLSKDecorButtonNoStyle {
 	background: none;
 	border: none;
 	padding: 0;
@@ -393,9 +393,9 @@
 	font-weight: bold;
 }
 
-/* OLSKCommon */
+/* OLSKDecor */
 
-.OLSKCommon {
+.OLSKDecor {
 	padding: var(--OLSKCommonContainerPadding);
 
 	background: var(--OLSKCommonBackground);
@@ -404,13 +404,13 @@
 	color: var(--OLSKCommonForeground);
 }
 
-.OLSKCommonCapped {
+.OLSKDecorCapped {
 	max-width: var(--OLSKCommonContainerMaxWidth);
 
 	margin: auto;
 }
 
-.OLSKCommonBordered {
+.OLSKDecorOutline {
 	padding: 20px 20px;
 	border: var(--OLSKCommonBorder);
 	border-top: none;
@@ -418,31 +418,31 @@
 }
 
 @media (max-width: 450px) {
-	.OLSKCommonBordered {
+	.OLSKDecorOutline {
 		border: none;
 	}
 }
 
-.OLSKCommon h1, .OLSKCommon h2, .OLSKCommon h3, .OLSKCommon h4 {
+.OLSKDecor h1, .OLSKDecor h2, .OLSKDecor h3, .OLSKDecor h4 {
 	font-family: var(--OLSKCommonHeadingFontFamily);
 }
 
-.OLSKCommon h1 {
+.OLSKDecor h1 {
 	padding-bottom: 2px;
 	border-bottom: 1px solid var(--OLSKCommonForeground);
 
 	font-size: 18pt;
 }
 
-.OLSKCommon h2 {
+.OLSKDecor h2 {
 	font-size: 12pt;
 }
 
-.OLSKCommon ul {
+.OLSKDecor ul {
 	padding-left: 30px;
 }
 
-.OLSKCommon blockquote {
+.OLSKDecor blockquote {
 	margin-left: 0;
 	padding-left: var(--OLSKCommonContainerPadding);
 	border-left: var(--OLSKCommonBorder);
@@ -452,38 +452,45 @@
 	font-size: 9.5pt;
 }
 
-.OLSKCommon hr {
+.OLSKDecor hr {
 	height: 1px;
 	border: none;
 
 	background: var(--OLSKCommonForeground);
 }
 
-.OLSKCommon input, .OLSKCommon button, .OLSKCommonButton, .OLSKCommon input[type="submit"], .OLSKCommon textarea {	
+.OLSKDecor input, .OLSKDecor button, .OLSKDecorPress, .OLSKDecor input[type="submit"], .OLSKDecor textarea {	
 	display: inline-block;
 	padding: var(--OLSKCommonInputPadding);
 	border: var(--OLSKCommonBorder);
 	border-radius: var(--OLSKCommonInputPadding);
 }
 
-.OLSKCommon button, .OLSKCommonButton, .OLSKCommon input[type="submit"] {
+.OLSKDecor button, .OLSKDecorPress, .OLSKDecor input[type="submit"] {
 	background: var(--OLSKCommonInteractiveFill);
 }
 
-a.OLSKCommonButton {
+a.OLSKDecorPress {
 	color: var(--OLSKCommonForeground);
 	text-decoration: none;
 }
 
-.OLSKCommonButtonPrimary {
+.OLSKDecorPressCall {
 	padding: 8px 16px;
 	font-size: 110%;
 }
 
-.OLSKCommonButtonDestructive {
+.OLSKDecorPressDestroy {
 	border-color: #800002;
 	background: #ffefef !important;
 	color: #800002;
+}
+
+/* OLSKDecorNotice */
+
+.OLSKDecorNotice {
+	padding: 10px;
+	border: 1px solid var(--OLSKCommonForeground)
 }
 
 .OLSKCommonAlert {
@@ -494,7 +501,7 @@ a.OLSKCommonButton {
 
 /*@media (max-width: 760px) {
 
-.OLSKCommon button, .OLSKCommonButton, .OLSKCommon input[type="submit"] {
+.OLSKDecor button, .OLSKDecorPress, .OLSKDecor input[type="submit"] {
 	display: block;
 	
 	margin-top: 20px;
@@ -502,7 +509,7 @@ a.OLSKCommonButton {
 
 }*/
 
-.OLSKCommon code {
+.OLSKDecor code {
 	display: inline-block;
 	padding: 3px;
 
@@ -624,17 +631,17 @@ a.OLSKCommonButton {
   height: 100%;
 }
 
-/* OLSKCommonForm */
+/* OLSKDecorBigForm */
 
-.OLSKCommonForm {
+.OLSKDecorBigForm {
 	--OLSKCommonInputPadding: 3px;
 }
 
-.OLSKCommonForm p:nth-child(1) {
+.OLSKDecorBigForm p:nth-child(1) {
 	margin-top: 0;
 }
 
-.OLSKCommonForm input[type=text], .OLSKCommonForm textarea {
+.OLSKDecorBigForm input[type=text], .OLSKDecorBigForm textarea {
 	width: 50%;
 	padding: 5px 7px;
 	border: 1px solid var(--OLSKCommonEdgeColor);
@@ -646,17 +653,17 @@ a.OLSKCommonButton {
 
 @media screen and (max-width: 760px) {
 
-	.OLSKCommonForm input[type=text], .OLSKCommonForm textarea {
+	.OLSKDecorBigForm input[type=text], .OLSKDecorBigForm textarea {
 		width: 90%;
 		padding: 10px;
 	}
 
 }
 
-.OLSKCommonForm textarea {
+.OLSKDecorBigForm textarea {
 	min-height: 200px;
 }
 
-.OLSKCommonForm hr {
+.OLSKDecorBigForm hr {
 	background: #e6e6e6;
 }
