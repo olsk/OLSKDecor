@@ -132,11 +132,10 @@
 
 .OLSKToolbar {
 	--OLSKToolbarButtonSize: 20px;
-	--OLSKToolbarBackground: var(--OLSKCommonBackground);
-
+	
 	padding: 0 4px;
 
-	background: var(--OLSKToolbarBackground);
+	background: var(--OLSKCommonBackground);
 
 	/* Firefox header spacing */
 	line-height: 0;
