@@ -132,6 +132,7 @@
 
 .OLSKToolbar {
 	--OLSKToolbarButtonSize: 20px;
+	--OLSKToolbarMobileMinHeight: 52px;
 	
 	padding: 0 4px;
 
@@ -150,7 +151,7 @@
 .OLSKToolbar {
 	--OLSKToolbarButtonSize: 24px;
 
-	min-height: 52px;
+	min-height: var(--OLSKToolbarMobileMinHeight);
 }
 
 }
