@@ -132,7 +132,7 @@
 
 .OLSKToolbar {
 	--OLSKToolbarSize: 20px;
-	--OLSKToolbarBackground: #fff;
+	--OLSKToolbarBackground: var(--OLSKCommonBackground);
 
 	padding: 0 4px;
 
