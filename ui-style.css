@@ -131,7 +131,7 @@
 /* OLSKToolbar */
 
 .OLSKToolbar {
-	--OLSKToolbarSize: 20px;
+	--OLSKToolbarButtonSize: 20px;
 	--OLSKToolbarBackground: var(--OLSKCommonBackground);
 
 	padding: 0 4px;
@@ -149,7 +149,7 @@
 @media screen and (max-width: 760px) {
 
 .OLSKToolbar {
-	--OLSKToolbarSize: 24px;
+	--OLSKToolbarButtonSize: 24px;
 
 	min-height: 52px;
 }
@@ -197,8 +197,8 @@
 
 .OLSKToolbarButton {
 	display: inline-block;
-	width: var(--OLSKToolbarSize);
-	height: var(--OLSKToolbarSize);
+	width: var(--OLSKToolbarButtonSize);
+	height: var(--OLSKToolbarButtonSize);
 }
 
 .OLSKToolbarButton > *, .OLSKToolbarButton svg {
@@ -330,8 +330,8 @@
 }
 
 .OLSKStorageToolbar .OSWStorageOptions svg {
-	width: var(--OLSKToolbarSize);
-	height: var(--OLSKToolbarSize);
+	width: var(--OLSKToolbarButtonSize);
+	height: var(--OLSKToolbarButtonSize);
 }
 
 .OLSKStorageToolbar .OSWOptionRemoteStorage {
