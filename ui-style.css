@@ -19,6 +19,10 @@
 	--OLSKCommonInteractiveFill: hsl(0, 0%, 90%);
 
 	--OLSKCommonInputPadding: 5px;
+
+	--OLSKMasterListItemSelectedColorDefault: #e6e6e6;
+	--OLSKMasterListItemSelectedColorActive: #1a81ff;
+	--OLSKMasterListItemSelectedColorActiveInverse: white;
 }
 
 /* OLSKCommonEdge */
@@ -277,14 +281,14 @@
 }
 
 .OLSKMasterListBody .OLSKResultsListItemSelected .OLSKMasterListItem {
-	background: #e6e6e6;
+	background: var(--OLSKMasterListItemSelectedColorDefault);
 }
 
 @media screen and (min-width: 760px) {
 
 .OLSKMasterListFocused .OLSKResultsListItemSelected .OLSKMasterListItem {
-	background: #1a81ff;
-	color: white;
+	background: var(--OLSKMasterListItemSelectedColorActive);
+	color: var(--OLSKMasterListItemSelectedColorActiveInverse);
 }
 
 }
