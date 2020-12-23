@@ -417,7 +417,8 @@
 }
 
 .OLSKDecorOutline {
-	padding: 20px 20px;
+	--OLSKCommonContainerPadding: 20px;
+	
 	border: var(--OLSKCommonBorder);
 	border-top: none;
 	border-bottom: none;
