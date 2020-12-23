@@ -6,6 +6,7 @@
 	--OLSKCommonFontSize: 10.5pt;
 
 	--OLSKCommonHeadingFontFamily: 'Helvetica Neue';
+	--OLSKCommonQuoteFontFamily: 'Georgia', serif;
 
 	--OLSKCommonBackground: white;
 	--OLSKCommonForeground: black;
@@ -20,9 +21,17 @@
 
 	--OLSKCommonInputPadding: 5px;
 
+	--OLSKSharedPadding: 4px;
+	--OLSKBorderRadius: 5px;
+
+	--OLSKSectionSpacing: 2em;
+
 	--OLSKMasterListItemSelectedColorDefault: #e6e6e6;
 	--OLSKMasterListItemSelectedColorActive: #1a81ff;
 	--OLSKMasterListItemSelectedColorActiveInverse: white;
+
+	--OLSKAlertColor: #eeeeee;
+	--OLSKCodeColor: hsl(0, 0%, 20%);
 }
 
 /* OLSKCommonEdge */
@@ -136,12 +145,11 @@
 
 .OLSKToolbar {
 	--OLSKToolbarButtonSize: 20px;
-	--OLSKToolbarPadding: 4px;
 	--OLSKToolbarMinHeight: 32px;
 	--OLSKToolbarElementSpacing: 2px;
 
 	min-height: var(--OLSKToolbarMinHeight);
-	padding: var(--OLSKToolbarPadding);
+	padding: var(--OLSKSharedPadding);
 
 	background: var(--OLSKCommonBackground);
 
@@ -352,7 +360,7 @@
 .OLSKStorageToolbar .OSWOptionRemoteStorage form .OSWOptionRemoteStorageAddressField {
 	padding: var(--OLSKCommonInputPadding);
 	border: var(--OLSKCommonBorder);
-	border-radius: var(--OLSKCommonInputPadding);
+	border-radius: var(--OLSKBorderRadius);
 
 	flex-grow: 1;
 }
@@ -360,7 +368,7 @@
 .OLSKStorageToolbar .OSWOptionRemoteStorage form .OSWOptionRemoteStorageConnectButton {
 	padding: var(--OLSKCommonInputPadding);
 	border: var(--OLSKCommonBorder);
-	border-radius: var(--OLSKCommonInputPadding);
+	border-radius: var(--OLSKBorderRadius);
 
 	margin-right: 0;
 
@@ -418,7 +426,7 @@
 
 .OLSKDecorOutline {
 	--OLSKCommonContainerPadding: 20px;
-	
+
 	border: var(--OLSKCommonBorder);
 	border-top: none;
 	border-bottom: none;
@@ -435,19 +443,19 @@
 }
 
 .OLSKDecor h1 {
-	padding-bottom: 2px;
-	border-bottom: 1px solid var(--OLSKCommonForeground);
+	padding-bottom: var(--OLSKSharedPadding);
+	border-bottom: var(--OLSKCommonEdgeBorder);
 
-	margin-top: 40px;
+	margin-top: var(--OLSKSectionSpacing);
 
-	font-size: 18pt;
+	font-size: calc(var(--OLSKCommonFontSize) * 1.8);
 }
 
 .OLSKDecor h2 {
-	font-size: 12pt;
+	font-size: calc(var(--OLSKCommonFontSize) * 1.3);
 }
 
-.OLSKDecor ul {
+.OLSKDecor ul, .OLSKDecor ol {
 	padding-left: 30px;
 }
 
@@ -457,8 +465,8 @@
 	border-left: var(--OLSKCommonBorder);
 
 	font-style: oblique;
-	font-family: Georgia, serif;
-	font-size: 9.5pt;
+	font-family: var(--OLSKCommonQuoteFontFamily);
+	font-size: calc(var(--OLSKCommonFontSize) * 0.9);
 }
 
 .OLSKDecor hr {
@@ -470,12 +478,13 @@
 
 .OLSKDecor table {
 	width: 100%;
+	border-collapse: collapse;
 
-	margin: 20px 0;
+	margin: calc(var(--OLSKSectionSpacing) / 2) 0;
 }
 
 .OLSKDecor table tr td {
-	padding: 3px 0;
+	padding: var(--OLSKSharedPadding);
 	border-top: var(--OLSKCommonEdgeBorder);
 }
 
@@ -483,7 +492,7 @@
 	display: inline-block;
 	padding: var(--OLSKCommonInputPadding);
 	border: var(--OLSKCommonBorder);
-	border-radius: var(--OLSKCommonInputPadding);
+	border-radius: var(--OLSKBorderRadius);
 }
 
 .OLSKDecor button, .OLSKDecorPress, .OLSKDecor input[type="submit"] {
@@ -496,8 +505,8 @@ a.OLSKDecorPress {
 }
 
 .OLSKDecorPressCall {
-	padding: 8px 16px;
-	font-size: 110%;
+	padding: calc(var(--OLSKSharedPadding) * 2.5) calc(var(--OLSKSharedPadding) * 4);
+	font-size: calc(var(--OLSKCommonFontSize) * 1.1);
 }
 
 .OLSKDecorPressDestroy {
@@ -506,13 +515,22 @@ a.OLSKDecorPress {
 	color: #800002;
 }
 
+.OLSKDecor code {
+	display: inline-block;
+	padding: var(--OLSKSharedPadding);
+	border-radius: var(--OLSKBorderRadius);
+
+	background: var(--OLSKAlertColor);
+	color: var(--OLSKCodeColor);
+}
+
 /* OLSKDecorNotice */
 
 .OLSKDecorNotice {
-	padding: 10px;
+	padding: var(--OLSKCommonContainerPadding);
 	border: 1px solid var(--OLSKCommonForeground);
 
-	margin: 20px 0;
+	margin: calc(var(--OLSKCommonContainerPadding) * 2) 0;
 }
 
 .OLSKDecorNotice p:first-child {
@@ -524,28 +542,12 @@ a.OLSKDecorPress {
 }
 
 .OLSKCommonAlert {
-	padding: 10px;
+	padding: var(--OLSKCommonContainerPadding);
 
-	background: #eeeeee;
+	background: var(--OLSKAlertColor);
 }
 
-/*@media (max-width: 760px) {
-
-.OLSKDecor button, .OLSKDecorPress, .OLSKDecor input[type="submit"] {
-	display: block;
-	
-	margin-top: 20px;
-}
-
-}*/
-
-.OLSKDecor code {
-	display: inline-block;
-	padding: 3px;
-
-	background: hsl(0, 0%, 94%);
-	color: hsl(0, 0%, 20%);
-}
+/* OLSKCommonRootLink */
 
 .OLSKCommonRootLink {
 	width: 70px;
@@ -571,7 +573,7 @@ a.OLSKDecorPress {
 	width: var(--OLSKCommonCardImageSize);
 	min-width: var(--OLSKCommonCardImageSize);
 
-	margin-right: 8px;
+	margin-right: calc(var(--OLSKSharedPadding) * 2);
 }
 
 .OLSKCommonCard > :last-child > :nth-child(1) {
@@ -584,11 +586,11 @@ a.OLSKDecorPress {
 /* OLSKCommonCrownCard */
 
 .OLSKCommonCrownCard {
-	margin: 2em 0;
+	margin: var(--OLSKSectionSpacing) 0;
 }
 
 .OLSKCommonCrownCard > :last-child > :nth-child(1) {
-	font-size: 24pt;
+	font-size: calc(var(--OLSKCommonFontSize) * 2.5);
 }
 
 .OLSKCommonCrownCard > :last-child > :nth-child(2) {
@@ -598,7 +600,7 @@ a.OLSKDecorPress {
 /* OLSKCommonFeatureCard */
 
 .OLSKCommonFeatureCard {
-	margin: 1em 0;
+	margin: calc(var(--OLSKSectionSpacing) / 2) 0;
 }
 
 .OLSKCommonFeatureCard > img {
@@ -614,13 +616,13 @@ a.OLSKDecorPress {
 .OLSKTestimonialListItem {
 	padding: var(--OLSKCommonContainerPadding);
 
-	margin: 1em 0;
+	margin: calc(var(--OLSKSectionSpacing) / 2) 0;
 
 	background: var(--OLSKCommonInteractiveFill);
 }
 
 .OLSKTestimonialListItemAuthor {
-	font-size: 8pt;
+	font-size: calc(var(--OLSKCommonFontSize) * 0.8);
 }
 
 /* OLSKCommonWhatIsIt */
@@ -633,8 +635,6 @@ a.OLSKDecorPress {
 
 .OLSKCommonVideoList {
 	max-width: 350px;
-
-	margin: auto;
 }
 
 .OLSKCommonVideoListItem {
@@ -644,7 +644,7 @@ a.OLSKDecorPress {
 	
 	padding-top: calc(((var(--OLSKCommonVideoHigh) + var(--OLSKCommonVideoBorderWidth) * var(--OLSKCommonVideoBorderWidth)) / (var(--OLSKCommonVideoWide) + var(--OLSKCommonVideoBorderWidth) * var(--OLSKCommonVideoBorderWidth))) * 100.00%);
 	border: calc(var(--OLSKCommonVideoBorderWidth) * 1px) var(--OLSKCommonInteractiveFill) solid;
-	border-radius: 10px;
+	border-radius: var(--OLSKBorderRadius);
 
   position: relative;
 
@@ -663,37 +663,26 @@ a.OLSKDecorPress {
 
 /* OLSKDecorBigForm */
 
-.OLSKDecorBigForm {
-	--OLSKCommonInputPadding: 3px;
-}
-
 .OLSKDecorBigForm p:nth-child(1) {
 	margin-top: 0;
 }
 
 .OLSKDecorBigForm input[type=text], .OLSKDecorBigForm textarea {
-	width: 50%;
-	padding: 5px 7px;
-	border: 1px solid var(--OLSKCommonEdgeColor);
+	width: 90%;
+	padding: calc(var(--OLSKSharedPadding) * 2);
+	border: var(--OLSKCommonEdgeBorder);
 }
 
-.OLSKCommonForm input[type=text] {
+/*.OLSKCommonForm input[type=text] {
 	line-height: 1.7;
-}
-
-@media screen and (max-width: 760px) {
-
-	.OLSKDecorBigForm input[type=text], .OLSKDecorBigForm textarea {
-		width: 90%;
-		padding: 10px;
-	}
-
-}
+}*/
 
 .OLSKDecorBigForm textarea {
 	min-height: 200px;
 }
 
 .OLSKDecorBigForm hr {
-	background: #e6e6e6;
+	margin: 0;
+	width: 90%;
+	background: var(--OLSKCommonEdgeColor);
 }
