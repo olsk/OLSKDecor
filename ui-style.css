@@ -686,3 +686,28 @@ a.OLSKDecorPress {
 	width: 90%;
 	background: var(--OLSKCommonEdgeColor);
 }
+
+/* OLSKDecorX */
+
+.OLSKDecorX a:not([href*="http"]):before {
+  content: "[[";
+  
+  opacity: 0.5;
+}
+
+.OLSKDecorX a:not([href*="http"]):after {
+  content: "]]";
+  
+  opacity: 0.5;
+}
+
+.OLSKDecorX a[href*="http"]:after {
+  content: "◱";
+
+  display: inline-block;
+
+  margin-left: 3px;
+
+  opacity: 0.5;
+  text-decoration: none;
+}
