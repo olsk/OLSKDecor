@@ -597,6 +597,14 @@ a.OLSKDecorPress {
 	font-style: oblique;
 }
 
+/* OLSKCommonCrownCardMini */
+
+.OLSKCommonCrownCardMini > img {
+	--OLSKCommonCardImageSize: 32px;
+
+	margin-right: var(--OLSKSharedPadding);
+}
+
 /* OLSKCommonFeatureCard */
 
 .OLSKCommonFeatureCard {
