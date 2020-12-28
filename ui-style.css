@@ -506,7 +506,12 @@ a.OLSKDecorPress {
 
 .OLSKDecorPressCall {
 	padding: calc(var(--OLSKSharedPadding) * 2.5) calc(var(--OLSKSharedPadding) * 4);
+	border: 2px solid var(--OLSKCommonForeground);
+	
+	font-family: var(--OLSKCommonHeadingFontFamily);
+	font-weight: bold;
 	font-size: calc(var(--OLSKCommonFontSize) * 1.1);
+	background: none;
 }
 
 .OLSKDecorPressDestroy {
@@ -603,6 +608,22 @@ a.OLSKDecorPress {
 	--OLSKCommonCardImageSize: 32px;
 
 	margin-right: var(--OLSKSharedPadding);
+}
+
+/* OLSKLanding */
+
+.OLSKLanding {
+	margin: calc(var(--OLSKSectionSpacing) * 2) 0;
+}
+
+.OLSKLandingHeading {
+	font-size: calc(var(--OLSKCommonFontSize) * 3);
+}
+
+.OLSKLandingBlurb {
+	font-size: calc(var(--OLSKCommonFontSize) * 1.2);
+
+	opacity: 0.5;
 }
 
 /* OLSKCommonFeatureCard */
