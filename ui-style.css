@@ -747,3 +747,12 @@ a.OLSKDecorPress {
   opacity: 0.5;
   text-decoration: none;
 }
+
+.OLSKDecorX * {
+ max-width: 100%;
+}
+
+.OLSKDecorX img {
+    border: 5px var(--OLSKCommonInteractiveFill) solid;
+    border-radius: var(--OLSKBorderRadius);
+}
