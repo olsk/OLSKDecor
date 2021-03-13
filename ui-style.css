@@ -419,12 +419,12 @@ a.OLSKDecorPress {
 
 .OLSKDecorPressCall {
 	padding: calc(var(--OLSKSharedPadding) * 2.5) calc(var(--OLSKSharedPadding) * 4);
-	border: 2px solid var(--OLSKCommonForeground);
+	border: 2px solid var(--OLSKCommonForeground) !important;
 	
 	font-family: var(--OLSKCommonHeadingFontFamily);
 	font-weight: bold;
 	font-size: calc(var(--OLSKCommonFontSize) * 1.1);
-	background: none;
+	background: none !important;
 }
 
 .OLSKDecorPressDestroy {
