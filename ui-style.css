@@ -424,6 +424,7 @@ a.OLSKDecorPress {
 	font-family: var(--OLSKCommonHeadingFontFamily);
 	font-weight: bold;
 	font-size: calc(var(--OLSKCommonFontSize) * 1.1);
+	color: var(--OLSKCommonForeground);
 	background: none !important;
 }
 
