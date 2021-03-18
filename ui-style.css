@@ -466,6 +466,13 @@ a.OLSKDecorPress {
 	background: var(--OLSKAlertColor);
 }
 
+/* OLSKCommonAppring */
+
+.OLSKCommonAppring {
+	margin: 40px 0;
+	text-align: center;
+}
+
 /* OLSKCommonRootLink */
 
 .OLSKCommonRootLink {
