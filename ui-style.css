@@ -51,6 +51,7 @@
 /* OLSKStickyHeader */
 
 .OLSKStickyHeader {
+	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 }
@@ -98,6 +99,7 @@
 }
 
 .OLSKMobileViewHeader {
+	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 }
