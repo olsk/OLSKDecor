@@ -48,6 +48,36 @@
 	border-bottom: var(--OLSKCommonEdgeBorder) !important;
 }
 
+/* OLSKDecorFixed */
+
+.OLSKDecorFixed {
+	--OLSKDecorFixedSecondaryHeight: 53px;
+}
+
+@media screen and (min-width: 760px) {
+
+.OLSKDecorFixed {
+	--OLSKDecorFixedSecondaryHeight: 41px;
+}
+
+}
+
+.OLSKDecorFixedHeader {
+	position: fixed;
+	top: 0;
+	display: block;
+	width: 100%;
+	z-index: 1;
+}
+
+.OLSKDecorFixedSecondary {
+	margin-top: var(--OLSKDecorFixedSecondaryHeight);
+}
+
+.OLSKDecorFixedSecondary .OLSKStickyHeader {
+	top: var(--OLSKDecorFixedSecondaryHeight);
+}
+
 /* OLSKStickyHeader */
 
 .OLSKStickyHeader {
