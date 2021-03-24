@@ -298,12 +298,6 @@
 	-webkit-overflow-scrolling: touch;
 }
 
-.OLSKMobileSafariRemoveDefaultInputStyle {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-}
-
 /* OLSKMasterList */
 
 .OLSKIsLoading .OLSKMasterListBody {
@@ -439,6 +433,11 @@
 	padding: var(--OLSKCommonInputPadding);
 	border: var(--OLSKCommonBorder);
 	border-radius: var(--OLSKBorderRadius);
+
+	/* OLSKMobileSafariRemoveDefaultInputStyle */
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 
 .OLSKDecor button, .OLSKDecorPress, .OLSKDecor input[type="submit"] {
