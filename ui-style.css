@@ -335,18 +335,6 @@
 
 }
 
-/* OLSKStorageToolbar */
-
-.OLSKStorageToolbar .OLSKToolbarElementGroup:last-of-type {
-	margin: unset !important;
-}
-
-@media (max-width: 450px) {
-	.OLSKStorageToolbar .OLSKToolbarElementGroup:last-of-type {
-		flex-grow: 1;
-	}
-}
-
 /* OLSKDecor */
 
 .OLSKDecor {
