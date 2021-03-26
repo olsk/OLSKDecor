@@ -433,7 +433,9 @@
 	padding: var(--OLSKCommonInputPadding);
 	border: var(--OLSKCommonBorder);
 	border-radius: var(--OLSKBorderRadius);
+}
 
+.OLSKDecor input[type="text"], .OLSKDecor textarea {	
 	/* OLSKMobileSafariRemoveDefaultInputStyle */
 	-webkit-appearance: none;
 	-moz-appearance: none;
