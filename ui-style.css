@@ -416,14 +416,17 @@
 	border-top: var(--OLSKCommonEdgeBorder);
 }
 
-.OLSKDecor input, .OLSKDecor button, .OLSKDecorPress, .OLSKDecor input[type="submit"], .OLSKDecor textarea {	
+.OLSKDecor input, .OLSKDecor button, .OLSKDecorPress, .OLSKDecor input[type="submit"], .OLSKDecor textarea, .OLSKDecorInput {	
 	display: inline-block;
 	padding: var(--OLSKCommonInputPadding);
 	border: var(--OLSKCommonBorder);
 	border-radius: var(--OLSKBorderRadius);
 }
 
-.OLSKDecor input[type="text"], .OLSKDecor textarea {	
+.OLSKDecor input[type="text"], .OLSKDecor textarea, .OLSKDecorInput {	
+	background: var(--OLSKCommonBackground) !important;
+	border-color: var(--OLSKCommonBorderColor) !important;
+
 	/* OLSKMobileSafariRemoveDefaultInputStyle */
 	-webkit-appearance: none;
 	-moz-appearance: none;
