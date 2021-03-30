@@ -435,6 +435,8 @@
 
 .OLSKDecor input, .OLSKDecor textarea {	
 	border: var(--OLSKCommonEdgeBorder);
+
+	color: var(--OLSKCommonForeground);
 }
 
 .OLSKDecor button, .OLSKDecorPress, .OLSKDecor input[type="submit"] {
