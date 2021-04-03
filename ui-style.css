@@ -500,7 +500,10 @@ a.OLSKDecorPress {
 /* OLSKCommonAppring */
 
 .OLSKCommonAppring {
+	display: block;
+
 	margin: 40px 0;
+	
 	text-align: center;
 }
 
