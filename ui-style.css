@@ -425,7 +425,7 @@
 
 .OLSKDecor input[type="text"], .OLSKDecor textarea, .OLSKDecorInput {	
 	background: var(--OLSKCommonBackground) !important;
-	border-color: var(--OLSKCommonBorderColor) !important;
+	border-color: var(--OLSKCommonEdgeColor) !important;
 
 	/* OLSKMobileSafariRemoveDefaultInputStyle */
 	-webkit-appearance: none;
