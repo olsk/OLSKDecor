@@ -711,6 +711,16 @@ a.OLSKDecorPress {
  border: none !important;
 }
 
+/* OLSKDecorDefinitionList */
+
+.OLSKDecorDefinitionList dt {
+	font-weight: bold;
+}
+
+.OLSKDecorDefinitionList dd {
+	margin: 10px 0;
+}
+
 /* OLSKDecorCallout */
 
 .OLSKDecorCallout {
