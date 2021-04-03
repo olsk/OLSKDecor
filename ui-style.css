@@ -713,17 +713,7 @@ a.OLSKDecorPress {
 
 /* OLSKDecorGlossary */
 
-.OLSKDecorGlossary dt {
-	font-weight: bold;
-}
-
-.OLSKDecorGlossary dd {
-	margin: 10px 0;
-}
-
-/* OLSKDecorCallout */
-
-.OLSKDecorCallout {
+.OLSKDecorGlossary {
 	padding: 30px;
 
 	margin: 50px 0;
@@ -732,10 +722,18 @@ a.OLSKDecorPress {
 	color: hsl(0, 0%, 20%);
 }
 
-.OLSKDecorCallout :first-child {
+.OLSKDecorGlossary :first-child {
 	margin-top: 0;
 }
 
-.OLSKDecorCallout :last-child {
+.OLSKDecorGlossary :last-child {
 	margin-bottom: 0;
+}
+
+.OLSKDecorGlossary dt {
+	font-weight: bold;
+}
+
+.OLSKDecorGlossary dd {
+	margin: 10px 0;
 }
