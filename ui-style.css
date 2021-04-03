@@ -711,13 +711,13 @@ a.OLSKDecorPress {
  border: none !important;
 }
 
-/* OLSKDecorDefinitionList */
+/* OLSKDecorGlossary */
 
-.OLSKDecorDefinitionList dt {
+.OLSKDecorGlossary dt {
 	font-weight: bold;
 }
 
-.OLSKDecorDefinitionList dd {
+.OLSKDecorGlossary dd {
 	margin: 10px 0;
 }
 
