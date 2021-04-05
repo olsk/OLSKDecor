@@ -32,6 +32,8 @@
 
 	--OLSKAlertColor: #eeeeee;
 	--OLSKCodeColor: hsl(0, 0%, 20%);
+
+	--OLSKStickyHeaderTop: 0;
 }
 
 /* OLSKCommonEdge */
@@ -84,7 +86,7 @@
 .OLSKStickyHeader {
 	position: -webkit-sticky;
 	position: sticky;
-	top: 0;
+	top: var(--OLSKStickyHeaderTop);
 }
 
 /* OLSKViewport */
