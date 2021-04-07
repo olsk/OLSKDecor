@@ -324,13 +324,13 @@
 	flex-grow: 1;
 }
 
-.OLSKMasterListBody .OLSKResultsListItemSelected .OLSKMasterListItem {
+.OLSKMasterListBody .OLSKResultsListItemSelected .OLSKCollectionItem {
 	background: var(--OLSKCollectionItemsLocusColorDefault);
 }
 
 @media screen and (min-width: 760px) {
 
-.OLSKMasterListFocused .OLSKResultsListItemSelected .OLSKMasterListItem {
+.OLSKMasterListFocused .OLSKResultsListItemSelected .OLSKCollectionItem {
 	background: var(--OLSKCollectionItemsLocusColorActive);
 	color: var(--OLSKCollectionItemsLocusColorActiveInverse);
 }
