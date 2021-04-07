@@ -26,9 +26,9 @@
 
 	--OLSKSectionSpacing: 2em;
 
-	--OLSKMasterListItemSelectedColorDefault: #e6e6e6;
-	--OLSKMasterListItemSelectedColorActive: #1a81ff;
-	--OLSKMasterListItemSelectedColorActiveInverse: white;
+	--OLSKCollectionItemsLocusColorDefault: #e6e6e6;
+	--OLSKCollectionItemsLocusColorActive: #1a81ff;
+	--OLSKCollectionItemsLocusColorActiveInverse: white;
 
 	--OLSKAlertColor: #eeeeee;
 	--OLSKCodeColor: hsl(0, 0%, 20%);
@@ -325,14 +325,14 @@
 }
 
 .OLSKMasterListBody .OLSKResultsListItemSelected .OLSKMasterListItem {
-	background: var(--OLSKMasterListItemSelectedColorDefault);
+	background: var(--OLSKCollectionItemsLocusColorDefault);
 }
 
 @media screen and (min-width: 760px) {
 
 .OLSKMasterListFocused .OLSKResultsListItemSelected .OLSKMasterListItem {
-	background: var(--OLSKMasterListItemSelectedColorActive);
-	color: var(--OLSKMasterListItemSelectedColorActiveInverse);
+	background: var(--OLSKCollectionItemsLocusColorActive);
+	color: var(--OLSKCollectionItemsLocusColorActiveInverse);
 }
 
 }
