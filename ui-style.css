@@ -31,7 +31,9 @@
 	--OLSKCollectionItemsLocusColorActiveInverse: white;
 
 	--OLSKAlertColor: #eeeeee;
-	--OLSKCodeColor: hsl(0, 0%, 20%);
+	
+	--OLSKCodeBackground: #eeeeee;
+	--OLSKCodeForeground: #333;
 
 	--OLSKStickyHeaderTop: 0;
 }
@@ -472,8 +474,8 @@ a.OLSKDecorPress {
 	padding: var(--OLSKSharedPadding);
 	border-radius: var(--OLSKBorderRadius);
 
-	background: var(--OLSKAlertColor);
-	color: var(--OLSKCodeColor);
+	background: var(--OLSKCodeBackground);
+	color: var(--OLSKCodeForeground);
 }
 
 /* OLSKDecorNotice */
