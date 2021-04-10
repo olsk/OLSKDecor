@@ -11,6 +11,8 @@
 	--OLSKCommonBackground: white;
 	--OLSKCommonForeground: black;
 
+	--OLSKInputBackground: var(--OLSKCommonBackground);
+
 	--OLSKCommonBorderColor: rgba(0, 0, 0, 0.3);
 	--OLSKCommonBorder: 1px solid var(--OLSKCommonBorderColor);
 
@@ -431,7 +433,7 @@
 }
 
 .OLSKDecor input[type="text"], .OLSKDecor textarea, .OLSKDecorInput {	
-	background: var(--OLSKCommonBackground) !important;
+	background: var(--OLSKInputBackground) !important;
 	border-color: var(--OLSKCommonEdgeColor) !important;
 
 	/* OLSKMobileSafariRemoveDefaultInputStyle */
