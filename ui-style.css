@@ -19,6 +19,9 @@
 
 	--OLSKCommonInteractiveFill: hsl(0, 0%, 90%);
 
+	--OLSKChunkHeadingBorderColor: #cccccc;
+	--OLSKChunkHeadingBackground: #e9e9e9;
+
 	--OLSKCommonInputPadding: 5px;
 
 	--OLSKSharedPadding: 4px;
@@ -743,4 +746,15 @@ a.OLSKDecorPress {
 
 .OLSKDecorGlossary dd {
 	margin: 10px 0;
+}
+
+/* OLSKCollectionChunkHeading */
+
+.OLSKCollectionChunkHeading {
+	padding: 6px;
+	outline: var(--OLSKChunkHeadingBorderColor) solid 1px;
+
+	font-weight: bold;
+	color: var(--OLSKCommonForeground);
+	background: var(--OLSKChunkHeadingBackground);
 }
