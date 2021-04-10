@@ -437,7 +437,7 @@
 	appearance: none;
 }
 
-.OLSKDecor input, .OLSKDecor textarea {	
+.OLSKDecor input, .OLSKDecor textarea, .OLSKDecorInput {	
 	border: var(--OLSKCommonEdgeBorder);
 
 	color: var(--OLSKCommonForeground);
