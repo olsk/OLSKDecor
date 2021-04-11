@@ -760,3 +760,26 @@ a.OLSKDecorPress {
 	color: var(--OLSKCommonForeground);
 	background: var(--OLSKChunkHeadingBackground);
 }
+
+/* OLSKCollectionItemStash */
+
+.OLSKCollectionItemStash .OLSKCollectionItemStashStatus {
+	background: var(--OLSKInputBackground);
+}
+
+.OLSKCollectionItemStashStatus {
+	--OLSKCollectionItemStashStatusSize: 23px;
+	
+	display: block;
+	width: var(--OLSKCollectionItemStashStatusSize);
+	height: var(--OLSKCollectionItemStashStatusSize);
+	border: 1px solid var(--OLSKCommonForeground);
+	border-radius: calc(var(--OLSKCollectionItemStashStatusSize) / 2 + 1px);
+
+	margin: 10px;
+	margin-right: 0;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
