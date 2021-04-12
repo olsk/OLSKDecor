@@ -307,37 +307,37 @@
 	-webkit-overflow-scrolling: touch;
 }
 
-/* OLSKMasterList */
+/* OLSKNarrow */
 
-.OLSKIsLoading .OLSKMasterListBody {
+.OLSKIsLoading .OLSKNarrowBody {
 	visibility: hidden;
 }
 
-.OLSKMasterList {
-	/* OLSKMasterListFlexbox:Parent */
+.OLSKNarrow {
+	/* OLSKNarrowFlexbox:Parent */
 	display: flex;
 	flex-direction: column;
 }
 
-.OLSKMasterListToolbar {
-	/* OLSKMasterListFlexbox:Child */
+.OLSKNarrowToolbar {
+	/* OLSKNarrowFlexbox:Child */
 	flex-shrink: 0;
 }
 
-.OLSKMasterListBody {
+.OLSKNarrowBody {
 	overflow: auto;
 	
-	/* OLSKMasterListFlexbox:Child */
+	/* OLSKNarrowFlexbox:Child */
 	flex-grow: 1;
 }
 
-.OLSKMasterListBody .OLSKCollectionItemLocus {
+.OLSKNarrowBody .OLSKCollectionItemLocus {
 	background: var(--OLSKCollectionItemsLocusColorDefault);
 }
 
 @media screen and (min-width: 760px) {
 
-.OLSKMasterListFocused .OLSKCollectionItemLocus {
+.OLSKNarrowFocused .OLSKCollectionItemLocus {
 	background: var(--OLSKCollectionItemsLocusColorActive);
 	color: var(--OLSKCollectionItemsLocusColorActiveInverse);
 }
