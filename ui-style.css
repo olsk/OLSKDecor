@@ -331,6 +331,10 @@
 	flex-grow: 1;
 }
 
+.OLSKNarrowBody .OLSKCollection {
+	flex-shrink: 0;
+}
+
 .OLSKNarrowBody .OLSKCollectionItemLocus {
 	background: var(--OLSKCollectionItemsLocusColorDefault);
 }
