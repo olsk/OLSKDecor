@@ -436,7 +436,7 @@
 	border-radius: var(--OLSKBorderRadius);
 }
 
-.OLSKDecor input[type="text"], .OLSKDecor textarea, .OLSKDecorInput {	
+.OLSKDecor input[type="text"], .OLSKDecor input[type="email"], .OLSKDecor textarea, .OLSKDecorInput {	
 	background: var(--OLSKInputBackground) !important;
 	border-color: var(--OLSKCommonEdgeColor) !important;
 
@@ -672,7 +672,7 @@ a.OLSKDecorPress {
 	margin-top: 0;
 }
 
-.OLSKDecorBigForm input[type=text], .OLSKDecorBigForm textarea {
+.OLSKDecorBigForm input[type=text], .OLSKDecorBigForm input[type=email], .OLSKDecorBigForm textarea {
 	width: 90%;
 	padding: calc(var(--OLSKSharedPadding) * 2);
 }
