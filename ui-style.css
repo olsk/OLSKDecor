@@ -457,7 +457,7 @@
 }
 
 a.OLSKDecorPress {
-	color: black;
+	color: var(--OLSKCommonForeground);
 	text-decoration: none;
 }
 
