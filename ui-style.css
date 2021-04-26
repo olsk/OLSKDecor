@@ -309,10 +309,6 @@
 
 /* OLSKNarrow */
 
-.OLSKIsLoading .OLSKNarrowBody {
-	visibility: hidden;
-}
-
 .OLSKNarrow {
 	/* OLSKNarrowFlexbox:Parent */
 	display: flex;
@@ -762,7 +758,11 @@ a.OLSKDecorPress {
 	margin: 10px 0;
 }
 
-/* OLSKCollectionChunkHeading */
+/* OLSKCollection */
+
+.OLSKIsLoading .OLSKCollection {
+	visibility: hidden;
+}
 
 .OLSKCollectionChunkHeading {
 	padding: 6px;
@@ -772,8 +772,6 @@ a.OLSKDecorPress {
 	color: var(--OLSKCommonForeground);
 	background: var(--OLSKChunkHeadingBackground);
 }
-
-/* OLSKCollectionItemStash */
 
 .OLSKCollectionItemStash .OLSKCollectionItemStashStatus {
 	background: var(--OLSKCommonForeground);
