@@ -452,6 +452,10 @@
 	color: var(--OLSKCommonForeground);
 }
 
+.OLSKDecor input::placeholder, .OLSKDecor textarea::placeholder, .OLSKDecorInput::placeholder {	
+	color: var(--OLSKCommonEdgeColor);
+}
+
 .OLSKDecor button, .OLSKDecorPress, .OLSKDecor input[type="submit"] {
 	background: var(--OLSKCommonInteractiveFill);
 }
