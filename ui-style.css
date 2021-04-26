@@ -456,6 +456,10 @@
 	background: var(--OLSKCommonInteractiveFill);
 }
 
+.OLSKDecor a {	
+	color: var(--OLSKCommonLinkColor);
+}
+
 a.OLSKDecorPress {
 	color: var(--OLSKCommonForeground);
 	text-decoration: none;
