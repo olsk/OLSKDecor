@@ -14,10 +14,6 @@ const mod = {
 		}];
 	},
 
-	OLSKControllerUseLivereload () {
-		return true;
-	},
-
 };
 
 Object.assign(exports, mod)
