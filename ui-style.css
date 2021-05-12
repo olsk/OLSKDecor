@@ -797,3 +797,9 @@ a.OLSKDecorPress {
 .OLSKCollectionItemStashStatusImage * {
 	stroke: var(--OLSKCommonBackground);
 }
+
+/* ROCOForum */
+
+.OLSKDecor .ROCOForum iframe {
+	width: 100%;
+}
