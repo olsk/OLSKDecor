@@ -798,62 +798,6 @@ a.OLSKDecorPress {
 	stroke: var(--OLSKCommonBackground);
 }
 
-/* ROCOForum */
-
-.OLSKDecor .ROCOForum iframe {
-	width: 100%;
-}
-
-.OLSKDecor .ROCOForum {
-	--ROCOForumForeground: #733132 !important;
-	padding: 10px 0;
-	border-radius: 5px;
-	border: 1px solid #f3e5e5;
-
-	margin: 80px 0;
-
-	background: #fffff1;
-}
-
-.OLSKDecor .ROCOForum * {
-	color: var(--ROCOForumForeground);
-	border-color: var(--ROCOForumForeground);
-}
-
-.OLSKDecor .ROCOForum h2, .OLSKDecor .ROCOForum a  {
-	margin: 8px;
-}
-
-.OLSKDecor .ROCOForum a  {
-	background: var(--ROCOForumForeground);
-	border-color: var(--ROCOForumForeground) !important;
-	color: var(--ROCOForumForeground) !important;
-}
-
-
-/* ROCOGazette */
-
-.OLSKDecor .ROCOGazette {
-	padding: 10px 20px;
-	border-radius: 5px;
-	border: 1px solid black;
-
-	margin: 80px 0;
-
-	background: #333;
-}
-
-.OLSKDecor .ROCOGazette * {
-	color: white;
-	border-color: white !important;
-}
-
-.OLSKDecor .ROCOGazette input[type="email"], .OLSKDecor .ROCOGazette input::placeholder  {
-	background: white !important;
-	border-color: white !important;
-	color: black !important;
-}
-
 /* OLSKBanner */
 
 .OLSKBanner {
@@ -885,10 +829,11 @@ a.OLSKDecorPress {
 
 }
 
-/* OLSKJar */
+/* OLSKDecorModule */
 
-.OLSKJar {
-	--OLSKJarForeground: #333 !important;
+.OLSKDecorModule {
+	--OLSKDecorModuleForeground: #333 !important;
+
 	padding: 10px 20px;
 	border-radius: 5px;
 	border: 1px solid #bbb;
@@ -896,16 +841,69 @@ a.OLSKDecorPress {
 	margin: 80px 0;
 
 	background: #ccc;
+}
+
+.OLSKDecorModule * {
+	color: var(--OLSKDecorModuleForeground);
+	border-color: var(--OLSKDecorModuleForeground);
+}
+
+.OLSKDecorModule a, .OLSKDecorModule .OLSKDecorPressCall {
+	border-color: var(--OLSKDecorModuleForeground) !important;
+	color: var(--OLSKDecorModuleForeground) !important;
+}
+
+/* ROCOGazette */
+
+.ROCOGazette {
+	--OLSKDecorModuleForeground: white !important;
+	
+	border-color: black;
+
+	background: #333;
+}
+
+.ROCOGazette * {
+	color: white;
+	border-color: white !important;
+}
+
+.ROCOGazette input[type="email"], .ROCOGazette input::placeholder  {
+	background: var(--OLSKDecorModuleForeground) !important;
+	border-color: var(--OLSKDecorModuleForeground) !important;
+	color: black !important;
+}
+
+/* OLSKJar */
+
+.OLSKJar {
+	--OLSKDecorModuleForeground: #333 !important;
 	text-align: center;
 }
 
-.OLSKJar * {
-	color: var(--OLSKJarForeground);
-	border-color: var(--OLSKJarForeground);
+.OLSKJar a  {
+	background: var(--OLSKDecorModuleForeground);
+	color: white !important;
 }
 
-.OLSKJar a  {
-	background: var(--OLSKJarForeground);
-	border-color: var(--OLSKJarForeground);
-	color: white !important;
+/* ROCOForum */
+
+.ROCOForum iframe {
+	width: 100%;
+}
+
+.ROCOForum {
+	--OLSKDecorModuleForeground: #733132 !important;
+	padding: 10px 0;
+	border-color: #f3e5e5;
+
+	background: #fffff1;
+}
+
+.ROCOForum h2, .ROCOForum a  {
+	margin: 8px;
+}
+
+.ROCOForum a  {
+	border-color: var(--OLSKDecorModuleForeground) !important;
 }
