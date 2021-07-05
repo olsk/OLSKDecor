@@ -804,6 +804,28 @@ a.OLSKDecorPress {
 	width: 100%;
 }
 
+/* ROCOGazette */
+
+.OLSKDecor .ROCOGazette {
+	padding: 10px 20px;
+	border-radius: 5px;
+
+	margin: 80px 0;
+
+	background: #333;
+}
+
+.OLSKDecor .ROCOGazette * {
+	color: white;
+	border-color: white !important;
+}
+
+.OLSKDecor .ROCOGazette input[type="email"], .OLSKDecor .ROCOGazette input::placeholder  {
+	background: white !important;
+	border-color: white !important;
+	color: black !important;
+}
+
 /* OLSKBanner */
 
 .OLSKBanner {
