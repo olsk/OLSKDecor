@@ -804,6 +804,33 @@ a.OLSKDecorPress {
 	width: 100%;
 }
 
+.OLSKDecor .ROCOForum {
+	--ROCOForumForeground: #733132 !important;
+	padding: 10px 0;
+	border-radius: 5px;
+	border: 1px solid #f3e5e5;
+
+	margin: 80px 0;
+
+	background: #fffff1;
+}
+
+.OLSKDecor .ROCOForum * {
+	color: var(--ROCOForumForeground);
+	border-color: var(--ROCOForumForeground);
+}
+
+.OLSKDecor .ROCOForum h2, .OLSKDecor .ROCOForum a  {
+	margin: 8px;
+}
+
+.OLSKDecor .ROCOForum a  {
+	background: var(--ROCOForumForeground);
+	border-color: var(--ROCOForumForeground) !important;
+	color: var(--ROCOForumForeground) !important;
+}
+
+
 /* ROCOGazette */
 
 .OLSKDecor .ROCOGazette {
