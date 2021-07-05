@@ -809,6 +809,7 @@ a.OLSKDecorPress {
 .OLSKDecor .ROCOGazette {
 	padding: 10px 20px;
 	border-radius: 5px;
+	border: 1px solid black;
 
 	margin: 80px 0;
 
