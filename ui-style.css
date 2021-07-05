@@ -860,22 +860,24 @@ a.OLSKDecorPress {
 /* OLSKJar */
 
 .OLSKJar {
+	--OLSKJarForeground: #333 !important;
 	padding: 10px 20px;
 	border-radius: 5px;
+	border: 1px solid #bbb;
 
 	margin: 80px 0;
 
-	background: #ddd;
+	background: #ccc;
 	text-align: center;
 }
 
 .OLSKJar * {
-	color: black !important;
-	border-color: black !important;
+	color: var(--OLSKJarForeground);
+	border-color: var(--OLSKJarForeground);
 }
 
 .OLSKJar a  {
-	background: black !important;
-	border-color: black !important;
+	background: var(--OLSKJarForeground);
+	border-color: var(--OLSKJarForeground);
 	color: white !important;
 }
