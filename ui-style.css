@@ -856,3 +856,26 @@ a.OLSKDecorPress {
 	}
 
 }
+
+/* OLSKJar */
+
+.OLSKJar {
+	padding: 10px 20px;
+	border-radius: 5px;
+
+	margin: 80px 0;
+
+	background: #ddd;
+	text-align: center;
+}
+
+.OLSKJar * {
+	color: black !important;
+	border-color: black !important;
+}
+
+.OLSKJar a  {
+	background: black !important;
+	border-color: black !important;
+	color: white !important;
+}
