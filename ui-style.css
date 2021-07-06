@@ -801,6 +801,8 @@ a.OLSKDecorPress {
 /* OLSKBanner */
 
 .OLSKBanner {
+	--OLSKBannerForeground: black !important;
+
 	padding: 8px;
 
 	position: fixed;
@@ -809,10 +811,15 @@ a.OLSKDecorPress {
 	right: 0;
 	
 	background: #f3f3f3;
-	border: 1px solid #ccc;
+	border-top: 1px solid #ccc;
 	text-align: center;
 
 	z-index: 1;
+}
+
+.OLSKBanner * {
+	color: var(--OLSKBannerForeground) !important;
+	border-color: var(--OLSKBannerForeground) !important;
 }
 
 .OLSKBanner .OLSKDecorPressCall {
