@@ -882,10 +882,14 @@ a.OLSKDecorPress {
 	border-color: white !important;
 }
 
-.ROCOGazette input[type="email"], .ROCOGazette input::placeholder  {
+.ROCOGazette input[type="email"]  {
 	background: var(--OLSKDecorModuleForeground) !important;
 	border-color: var(--OLSKDecorModuleForeground) !important;
 	color: black !important;
+}
+
+.ROCOGazette input::placeholder  {
+	color: grey !important;
 }
 
 /* OLSKJar */
