@@ -828,6 +828,8 @@ a.OLSKDecorPress {
 @media screen and (max-width: 760px) {
 
 	.OLSKBanner {
+		padding: 4px;
+
 		display: flex;
 		align-items: center;
 		text-align: center;
@@ -836,7 +838,7 @@ a.OLSKDecorPress {
 	.OLSKBannerButton {
 		display: block;
 
-		margin: 10px;
+		margin: 4px;
 
 		flex-shrink: 0;
 	}
