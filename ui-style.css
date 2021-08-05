@@ -361,6 +361,14 @@
 	margin: auto;
 }
 
+@media screen and (min-width: 760px) {
+
+	.OLSKDecorCapped {
+		padding-top: 0;
+	}
+
+}
+
 .OLSKDecorOutline {
 	--OLSKCommonContainerPadding: 20px;
 
