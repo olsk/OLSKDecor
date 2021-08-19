@@ -494,6 +494,14 @@ a.OLSKDecorPress {
 	color: var(--OLSKCodeForeground);
 }
 
+/* OLSKDecorTitle */
+
+.OLSKDecorTitle {
+	font-weight: bold;
+	font-family: var(--OLSKCommonHeadingFontFamily);
+	font-size: calc(var(--OLSKCommonFontSize) * 2);
+}
+
 /* OLSKDecorNotice */
 
 .OLSKDecorNotice {
