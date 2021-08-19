@@ -550,6 +550,24 @@ a.OLSKDecorPress {
 	margin-top: 8px;
 }
 
+/* OLSKDecorAction */
+
+.OLSKDecorAction {
+	text-align: center;
+	background: #ddd !important;
+	border: none !important;
+}
+
+.OLSKDecorAction :first-child {
+	display: block;
+	
+	font-size: calc(var(--OLSKCommonFontSize) * 2.5);
+}
+
+.OLSKDecorAction * {
+	margin: 10px !important;
+}
+
 /* OLSKCommonTie */
 
 .OLSKCommonTie {
