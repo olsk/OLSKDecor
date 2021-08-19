@@ -525,6 +525,31 @@ a.OLSKDecorPress {
 	background: var(--OLSKAlertColor);
 }
 
+/* OLSKDecorCompareTable */
+
+.OLSKDecorCompareTable th, .OLSKDecorCompareTable td {
+	padding: 10px !important;
+	vertical-align: top;
+}
+
+.OLSKDecorCompareTable td:first-child {
+	width: 45%;
+}
+
+.OLSKDecorCompareTable td:not(:first-child) {
+	text-align: center;
+}
+
+.OLSKDecorCompareTable tr:nth-child(2n) {
+	background: hsl(0, 0%, 95%);
+}
+
+.OLSKDecorCompareTable small {
+	display: block;
+
+	margin-top: 8px;
+}
+
 /* OLSKCommonTie */
 
 .OLSKCommonTie {
