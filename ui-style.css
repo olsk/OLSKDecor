@@ -16,6 +16,9 @@
 	--OLSKDecorForegroundLight: #ddd;
 	--OLSKCommonBackground: white;
 	--OLSKCommonForeground: black;
+	--OLSKDecorFormBlendBackground: var(--OLSKCommonBackground);
+	--OLSKDecorFormBlendBorderColor: var(--OLSKCommonForeground);
+	--OLSKDecorFormBlendBorder: 1px solid var(--OLSKDecorFormBlendBorderColor);
 
 	--OLSKDecorBorderColor: var(--OLSKCommonForeground);
 	--OLSKDecorBorder: 1px solid var(--OLSKDecorBorderColor);
@@ -715,9 +718,9 @@ a.OLSKDecorPress {
 /* OLSKDecorFormBlend */
 
 .OLSKDecorFormBlend input, .OLSKDecorFormBlend button, .OLSKDecorFormBlend .OLSKDecorPress, .OLSKDecorFormBlend input[type="submit"], .OLSKDecorFormBlend textarea, .OLSKDecorFormBlend .OLSKDecorInput {	
-	border: var(--OLSKDecorBorder);
+	border: var(--OLSKDecorFormBlendBorder);
 	
-	background: var(--OLSKCommonBackground);
+	background: var(--OLSKDecorFormBlendBackground);
 	color: var(--OLSKCommonForeground);
 }
 
