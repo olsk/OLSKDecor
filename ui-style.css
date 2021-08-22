@@ -374,7 +374,6 @@ body {
 }
 
 .OLSKDecorOutline {
-	--OLSKDecorContainerPadding: 20px;
 	--OLSKDecorCappedBorder: 1px solid var(--OLSKDecorBackgroundDeepEdge);
 
 	border-right: var(--OLSKDecorCappedBorder) !important;
