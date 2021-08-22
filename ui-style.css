@@ -444,6 +444,8 @@ body {
 	border-top: var(--OLSKDecorBorder);
 }
 
+/* form */
+
 .OLSKDecor input, .OLSKDecor button, .OLSKDecorPress, .OLSKDecor input[type="submit"], .OLSKDecor textarea, .OLSKDecorInput {	
 	display: inline-block;
 	padding: var(--OLSKCommonInputPadding);
@@ -452,23 +454,10 @@ body {
 }
 
 .OLSKDecor input[type="text"], .OLSKDecor input[type="email"], .OLSKDecor textarea, .OLSKDecorInput {	
-	background: var(--OLSKInputBackground) !important;
-	border-color: var(--OLSKCommonEdgeColor) !important;
-
 	/* OLSKMobileSafariRemoveDefaultInputStyle */
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-}
-
-.OLSKDecor input, .OLSKDecor textarea, .OLSKDecorInput {	
-	border: var(--OLSKCommonEdgeBorder);
-
-	color: var(--OLSKCommonForeground);
-}
-
-.OLSKDecor input::placeholder, .OLSKDecor textarea::placeholder, .OLSKDecorInput::placeholder {	
-	color: var(--OLSKCommonEdgeColor);
 }
 
 .OLSKDecor button, .OLSKDecorPress, .OLSKDecor input[type="submit"] {
