@@ -1,5 +1,6 @@
 :root {
 	--OLSKDecorBackgroundDeep: default;
+	--OLSKDecorBackgroundDeepEdge: default;
 
 	--OLSKCommonContainerPadding: 10px;
 	--OLSKCommonContainerMaxWidth: 420px;
@@ -365,6 +366,12 @@ body {
 	max-width: var(--OLSKCommonContainerMaxWidth);
 
 	margin: auto;
+}
+
+.OLSKDecorCappedEdge {
+	--OLSKDecorCappedBorder: 1px solid var(--OLSKDecorBackgroundDeepEdge);
+	border-right: var(--OLSKDecorCappedBorder) !important;
+	border-left: var(--OLSKDecorCappedBorder) !important;
 }
 
 .OLSKDecorNoTopPad {
