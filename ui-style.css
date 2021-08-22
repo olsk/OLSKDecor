@@ -12,18 +12,16 @@
 	--OLSKCommonQuoteFontFamily: 'Georgia', serif;
 
 	--OLSKDecorBackgroundDark: #eeeeee;
+	--OLSKDecorForegroundLight: #ddd;
 	--OLSKCommonBackground: white;
 	--OLSKCommonForeground: black;
-
-	--OLSKInputBackground: var(--OLSKCommonBackground);
 
 	--OLSKDecorBorderColor: var(--OLSKCommonForeground);
 	--OLSKDecorBorder: 1px solid var(--OLSKDecorBorderColor);
 	--OLSKCommonBorderColor: rgba(0, 0, 0, 0.3);
 	--OLSKCommonBorder: 1px solid var(--OLSKCommonBorderColor);
 
-	--OLSKCommonEdgeColor: #ddd;
-	--OLSKCommonEdgeBorder: 1px solid var(--OLSKCommonEdgeColor);
+	--OLSKCommonEdgeBorder: 1px solid var(--OLSKDecorForegroundLight);
 
 	--OLSKCommonInteractiveFill: hsl(0, 0%, 90%);
 
@@ -429,7 +427,7 @@ body {
 	height: 1px;
 	border: none;
 
-	background: var(--OLSKCommonForeground);
+	background: var(--OLSKDecorBorderColor);
 }
 
 .OLSKDecor table {
@@ -484,9 +482,9 @@ a.OLSKDecorPress {
 }
 
 .OLSKDecorPressDestroy {
-	border-color: #800002;
+	border-color: #800002 !important;
 	background: #ffefef !important;
-	color: #800002;
+	color: #800002 !important;
 }
 
 .OLSKDecor code {
@@ -718,6 +716,19 @@ a.OLSKDecorPress {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+/* OLSKDecorFormBlend */
+
+.OLSKDecorFormBlend input, .OLSKDecorFormBlend button, .OLSKDecorFormBlend .OLSKDecorPress, .OLSKDecorFormBlend input[type="submit"], .OLSKDecorFormBlend textarea, .OLSKDecorFormBlend .OLSKDecorInput {	
+	border: var(--OLSKDecorBorder);
+	
+	background: var(--OLSKCommonBackground);
+	color: var(--OLSKCommonForeground);
+}
+
+.OLSKDecorFormBlend input::placeholder, .OLSKDecorFormBlend textarea::placeholder, .OLSKDecorFormBlend .OLSKDecorInput::placeholder {	
+	color: var(--OLSKDecorForegroundLight);
 }
 
 /* OLSKDecorBigForm */
