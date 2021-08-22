@@ -16,6 +16,8 @@
 
 	--OLSKInputBackground: var(--OLSKCommonBackground);
 
+	--OLSKDecorBorderColor: var(--OLSKCommonForeground);
+	--OLSKDecorBorder: 1px solid var(--OLSKDecorBorderColor);
 	--OLSKCommonBorderColor: rgba(0, 0, 0, 0.3);
 	--OLSKCommonBorder: 1px solid var(--OLSKCommonBorderColor);
 
@@ -398,7 +400,7 @@ body {
 
 .OLSKDecor h1 {
 	padding-bottom: var(--OLSKSharedPadding);
-	border-bottom: var(--OLSKCommonEdgeBorder);
+	border-bottom: var(--OLSKDecorBorder);
 
 	margin-top: var(--OLSKSectionSpacing);
 
@@ -416,7 +418,7 @@ body {
 .OLSKDecor blockquote {
 	margin-left: 0;
 	padding-left: var(--OLSKCommonContainerPadding);
-	border-left: var(--OLSKCommonBorder);
+	border-left: var(--OLSKDecorBorder);
 
 	font-style: oblique;
 	font-family: var(--OLSKCommonQuoteFontFamily);
@@ -439,7 +441,7 @@ body {
 
 .OLSKDecor table tr td {
 	padding: var(--OLSKSharedPadding);
-	border-top: var(--OLSKCommonEdgeBorder);
+	border-top: var(--OLSKDecorBorder);
 }
 
 .OLSKDecor input, .OLSKDecor button, .OLSKDecorPress, .OLSKDecor input[type="submit"], .OLSKDecor textarea, .OLSKDecorInput {	
@@ -519,7 +521,7 @@ a.OLSKDecorPress {
 
 .OLSKDecorNotice {
 	padding: var(--OLSKCommonContainerPadding);
-	border: 1px solid var(--OLSKCommonForeground);
+	border: var(--OLSKDecorBorder);
 
 	margin: calc(var(--OLSKCommonContainerPadding) * 2) 0;
 }
@@ -711,7 +713,7 @@ a.OLSKDecorPress {
 	--OLSKCommonVideoHigh: 1334;
 	
 	padding-top: calc(((var(--OLSKCommonVideoHigh) + var(--OLSKCommonVideoBorderWidth) * var(--OLSKCommonVideoBorderWidth)) / (var(--OLSKCommonVideoWide) + var(--OLSKCommonVideoBorderWidth) * var(--OLSKCommonVideoBorderWidth))) * 100.00%);
-	border: calc(var(--OLSKCommonVideoBorderWidth) * 1px) var(--OLSKCommonInteractiveFill) solid;
+	border: calc(var(--OLSKCommonVideoBorderWidth) * 1px) var(--OLSKDecorBorderColor) solid;
 	border-radius: var(--OLSKBorderRadius);
 
   position: relative;
