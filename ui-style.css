@@ -740,9 +740,11 @@ a.OLSKDecorPress {
 }
 
 .OLSKDecorBigForm hr {
-	margin: 0;
 	width: 90%;
-	background: var(--OLSKCommonEdgeColor);
+
+	margin: 0;
+
+	opacity: 0.5;
 }
 
 /* OLSKDecorX */
