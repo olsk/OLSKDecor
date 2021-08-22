@@ -11,6 +11,7 @@
 	--OLSKCommonHeadingFontFamily: 'Helvetica Neue';
 	--OLSKCommonQuoteFontFamily: 'Georgia', serif;
 
+	--OLSKDecorBackgroundDark: #eeeeee;
 	--OLSKCommonBackground: white;
 	--OLSKCommonForeground: black;
 
@@ -40,7 +41,6 @@
 	--OLSKCollectionItemsLocusColorActive: #1a81ff;
 	--OLSKCollectionItemsLocusColorActiveInverse: white;
 
-	--OLSKAlertColor: #eeeeee;
 	
 	--OLSKCodeBackground: #eeeeee;
 	--OLSKCodeForeground: #333;
@@ -537,7 +537,7 @@ a.OLSKDecorPress {
 .OLSKCommonAlert {
 	padding: var(--OLSKCommonContainerPadding);
 
-	background: var(--OLSKAlertColor);
+	background: var(--OLSKDecorBackgroundDark);
 }
 
 /* OLSKDecorCompareTable */
@@ -688,7 +688,7 @@ a.OLSKDecorPress {
 
 	margin: calc(var(--OLSKSectionSpacing) / 2) 0;
 
-	background: var(--OLSKCommonInteractiveFill);
+	background: var(--OLSKDecorBackgroundDark);
 }
 
 .OLSKTestimonialListItemAuthor {
