@@ -2,7 +2,8 @@
 	--OLSKDecorBackgroundDeep: default;
 	--OLSKDecorBackgroundDeepEdge: default;
 
-	--OLSKCommonContainerPadding: 10px;
+	--OLSKDecorPadding: 10px;
+	--OLSKDecorContainerPadding: 10px;
 	--OLSKCommonContainerMaxWidth: 420px;
 
 	--OLSKCommonFontFamily: 'Lucida Grande', sans-serif;
@@ -354,7 +355,7 @@ body {
 /* OLSKDecor */
 
 .OLSKDecor {
-	padding: var(--OLSKCommonContainerPadding);
+	padding: var(--OLSKDecorContainerPadding);
 
 	background: var(--OLSKCommonBackground);
 	font-family: var(--OLSKCommonFontFamily);
@@ -368,22 +369,16 @@ body {
 	margin: auto;
 }
 
-.OLSKDecorCappedEdge {
-	--OLSKDecorCappedBorder: 1px solid var(--OLSKDecorBackgroundDeepEdge);
-	border-right: var(--OLSKDecorCappedBorder) !important;
-	border-left: var(--OLSKDecorCappedBorder) !important;
-}
-
 .OLSKDecorNoTopPad {
 	padding-top: 0;
 }
 
 .OLSKDecorOutline {
-	--OLSKCommonContainerPadding: 20px;
+	--OLSKDecorContainerPadding: 20px;
+	--OLSKDecorCappedBorder: 1px solid var(--OLSKDecorBackgroundDeepEdge);
 
-	border: var(--OLSKCommonBorder);
-	border-top: none;
-	border-bottom: none;
+	border-right: var(--OLSKDecorCappedBorder) !important;
+	border-left: var(--OLSKDecorCappedBorder) !important;
 }
 
 @media (max-width: 450px) {
@@ -415,7 +410,7 @@ body {
 
 .OLSKDecor blockquote {
 	margin-left: 0;
-	padding-left: var(--OLSKCommonContainerPadding);
+	padding-left: var(--OLSKDecorPadding);
 	border-left: var(--OLSKDecorBorder);
 
 	font-style: oblique;
@@ -507,10 +502,10 @@ a.OLSKDecorPress {
 /* OLSKDecorNotice */
 
 .OLSKDecorNotice {
-	padding: var(--OLSKCommonContainerPadding);
+	padding: var(--OLSKDecorPadding);
 	border: var(--OLSKDecorBorder);
 
-	margin: calc(var(--OLSKCommonContainerPadding) * 2) 0;
+	margin: calc(var(--OLSKDecorPadding) * 2) 0;
 }
 
 .OLSKDecorNotice p:first-child {
@@ -522,7 +517,7 @@ a.OLSKDecorPress {
 }
 
 .OLSKCommonAlert {
-	padding: var(--OLSKCommonContainerPadding);
+	padding: var(--OLSKDecorPadding);
 
 	background: var(--OLSKDecorBackgroundDark);
 }
@@ -671,7 +666,7 @@ a.OLSKDecorPress {
 /* OLSKTestimonialListItem */
 
 .OLSKTestimonialListItem {
-	padding: var(--OLSKCommonContainerPadding);
+	padding: var(--OLSKDecorPadding);
 
 	margin: calc(var(--OLSKSectionSpacing) / 2) 0;
 
