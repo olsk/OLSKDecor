@@ -1,4 +1,6 @@
 :root {
+	--OLSKDecorBackgroundDeep: default;
+
 	--OLSKCommonContainerPadding: 10px;
 	--OLSKCommonContainerMaxWidth: 420px;
 
@@ -41,6 +43,10 @@
 	--OLSKCodeForeground: #333;
 
 	--OLSKStickyHeaderTop: 0;
+}
+
+body {
+	background: var(--OLSKDecorBackgroundDeep);
 }
 
 /* OLSKCommonEdge */
