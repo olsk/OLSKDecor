@@ -1017,3 +1017,31 @@ a.OLSKDecorPress {
 .ROCOForum a  {
 	border-color: var(--OLSKDecorModuleForeground) !important;
 }
+
+/* ROCOStandardView */
+
+.ROCOStandardView {
+	display: flex;
+	flex-direction: column;
+}
+
+.ROCOStandardViewHead {
+	/* ROCOStandardViewFlexbox:Child */
+	flex-shrink: 0;
+}
+
+.ROCOStandardViewBody {
+	/* ROCOStandardViewFlexbox:Child */
+	flex-grow: 1;
+
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (min-width: 760px) {
+
+	.ROCOStandardViewBody {
+		overflow: auto;
+	}
+
+}
