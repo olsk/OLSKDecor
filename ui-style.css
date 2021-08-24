@@ -717,7 +717,7 @@ a.OLSKDecorPress {
 
 /* OLSKDecorFormBlend */
 
-.OLSKDecorFormBlend input, .OLSKDecorFormBlend button, .OLSKDecorFormBlend .OLSKDecorPress, .OLSKDecorFormBlend input[type="submit"], .OLSKDecorFormBlend textarea, .OLSKDecorFormBlend .OLSKDecorInput {	
+.OLSKDecorFormBlend input, .OLSKDecorFormBlend button:not(.OLSKDecorButtonNoStyle), .OLSKDecorFormBlend .OLSKDecorPress, .OLSKDecorFormBlend input[type="submit"], .OLSKDecorFormBlend textarea, .OLSKDecorFormBlend .OLSKDecorInput {	
 	border: var(--OLSKDecorFormBlendBorder);
 	
 	background: var(--OLSKDecorFormBlendBackground);
