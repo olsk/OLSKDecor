@@ -437,6 +437,7 @@ body {
 .OLSKDecor table tr td {
 	padding: var(--OLSKSharedPadding);
 	border-top: var(--OLSKDecorBorder);
+	border-color: var(--OLSKDecorForegroundLight);
 }
 
 /* form */
@@ -697,7 +698,7 @@ a.OLSKDecorPress {
 	--OLSKCommonVideoHigh: 1334;
 	
 	padding-top: calc(((var(--OLSKCommonVideoHigh) + var(--OLSKCommonVideoBorderWidth) * var(--OLSKCommonVideoBorderWidth)) / (var(--OLSKCommonVideoWide) + var(--OLSKCommonVideoBorderWidth) * var(--OLSKCommonVideoBorderWidth))) * 100.00%);
-	border: calc(var(--OLSKCommonVideoBorderWidth) * 1px) var(--OLSKDecorBorderColor) solid;
+	border: calc(var(--OLSKCommonVideoBorderWidth) * 1px) var(--OLSKDecorForegroundLight) solid;
 	border-radius: var(--OLSKBorderRadius);
 
   position: relative;
