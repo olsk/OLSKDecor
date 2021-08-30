@@ -411,7 +411,12 @@ body {
 }
 
 .OLSKDecor img {
-	max-width: 100%;
+	max-width: calc(100% - var(--OLSKDecorPadding) * 2);
+
+	border: var(--OLSKDecorBorder);
+	border-width: var(--OLSKDecorPadding);
+	border-color: var(--OLSKDecorForegroundLight);
+	border-radius: var(--OLSKBorderRadius);
 }
 
 .OLSKDecor blockquote {
