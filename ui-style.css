@@ -410,6 +410,10 @@ body {
 	padding-left: 30px;
 }
 
+.OLSKDecor img {
+	max-width: 100%;
+}
+
 .OLSKDecor blockquote {
 	margin-left: 0;
 	padding-left: var(--OLSKDecorPadding);
