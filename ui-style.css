@@ -410,7 +410,7 @@ body {
 	padding-left: 30px;
 }
 
-.OLSKDecor img {
+.OLSKDecor img:not(* img) {
 	max-width: calc(100% - var(--OLSKDecorPadding) * 2);
 
 	border: var(--OLSKDecorBorder);
