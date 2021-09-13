@@ -725,6 +725,11 @@ a.OLSKDecorPress {
   height: 100%;
 }
 
+.OLSKCommonVideoListItemSquare {
+	--OLSKCommonVideoWide: 730;
+	--OLSKCommonVideoHigh: 540;
+}
+
 /* OLSKDecorFormBlend */
 
 .OLSKDecorFormBlend input, .OLSKDecorFormBlend button:not(.OLSKDecorButtonNoStyle), .OLSKDecorFormBlend .OLSKDecorPress, .OLSKDecorFormBlend input[type="submit"], .OLSKDecorFormBlend textarea, .OLSKDecorFormBlend .OLSKDecorInput {	
