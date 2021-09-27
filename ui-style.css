@@ -514,6 +514,10 @@ a.OLSKDecorPress {
 	color: var(--OLSKCodeForeground);
 }
 
+.OLSKDecor :disabled {
+	opacity: 0.5;
+}
+
 /* OLSKDecorTitle */
 
 .OLSKDecorTitle {
