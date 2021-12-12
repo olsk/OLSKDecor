@@ -912,16 +912,15 @@ a.OLSKDecorPress {
 	border-top: 1px solid #ccc;
 	text-align: center;
 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 	z-index: 1;
 }
 
 .OLSKBanner * {
 	color: var(--OLSKBannerForeground) !important;
-	border-color: var(--OLSKBannerForeground) !important;
-}
-
-.OLSKBanner .OLSKDecorPressCall {
-	padding: 4px;
 }
 
 @media screen and (max-width: 760px) {
@@ -932,14 +931,6 @@ a.OLSKDecorPress {
 		display: flex;
 		align-items: center;
 		text-align: center;
-	}
-
-	.OLSKBannerButton {
-		display: block;
-
-		margin: 4px;
-
-		flex-shrink: 0;
 	}
 
 }
