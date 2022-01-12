@@ -602,6 +602,10 @@ a.OLSKDecorPress {
 	text-align: center;
 }
 
+.SWARLink {
+	opacity: 0.5;
+}
+
 /* OLSKCommonRootLink */
 
 .OLSKCommonRootLink {
