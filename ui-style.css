@@ -927,6 +927,12 @@ a.OLSKDecorPress {
 	color: var(--OLSKBannerForeground) !important;
 }
 
+.OLSKBannerButton {
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
 @media screen and (max-width: 760px) {
 
 	.OLSKBanner {
