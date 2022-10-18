@@ -929,6 +929,8 @@ a.OLSKDecorPress {
 
 .OLSKBannerLink {
 	text-decoration: none;
+	font-weight: normal;
+	
 	display: flex;
 	align-items: center;
 }
