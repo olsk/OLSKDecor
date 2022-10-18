@@ -927,7 +927,7 @@ a.OLSKDecorPress {
 	color: var(--OLSKBannerForeground) !important;
 }
 
-.OLSKBannerButton {
+.OLSKBannerLink {
 	text-decoration: none;
 	display: flex;
 	align-items: center;
