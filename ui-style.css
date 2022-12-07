@@ -773,7 +773,7 @@ a.OLSKDecorPress {
 	margin-top: 0;
 }
 
-.OLSKDecorBigForm input[type=text], .OLSKDecorBigForm input[type=email], .OLSKDecorBigForm textarea {
+.OLSKDecorBigForm input[type=text], .OLSKDecorBigForm input[type=email], .OLSKDecorBigForm input[type=url], .OLSKDecorBigForm input[type=tel], .OLSKDecorBigForm textarea {
 	width: 90%;
 	padding: calc(var(--OLSKSharedPadding) * 2);
 }
