@@ -499,6 +499,12 @@ a.OLSKDecorPress {
 	background: none !important;
 }
 
+.OLSKDecorPressCallInverted {
+	border:  none !important;
+	background: black !important;
+	color: white !important;
+}
+
 .OLSKDecorPressDestroy {
 	border-color: #800002 !important;
 	background: #ffefef !important;
