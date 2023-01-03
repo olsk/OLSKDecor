@@ -942,17 +942,6 @@ a.OLSKDecorPress {
 	align-items: center;
 }
 
-@media screen and (max-width: 760px) {
-
-	.OLSKBanner {
-
-		display: flex;
-		align-items: center;
-		text-align: center;
-	}
-
-}
-
 /* OLSKDecorModule */
 
 .OLSKDecorModule {
