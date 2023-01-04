@@ -82,12 +82,16 @@ body {
 
 }
 
+@media screen and (max-width: 760px) {
+
 .OLSKDecorFixedHeader {
 	position: fixed;
 	top: 0;
 	display: block;
 	width: 100%;
 	z-index: 2;
+}
+
 }
 
 .OLSKDecorFixedSecondary {
