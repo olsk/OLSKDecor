@@ -50,6 +50,10 @@
 	--OLSKStickyHeaderTop: 0;
 }
 
+html, body {
+	height: 100vh;
+}
+
 body {
 	background: var(--OLSKDecorBackgroundDeep);
 }
@@ -115,17 +119,25 @@ body {
 
 @media screen and (min-width: 760px) {
 
-.OLSKViewport {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
+	.OLSKViewport {
+		width: 90%;
+		max-width: 920px;
+		margin: auto;
+		height: 90%;
+		position: relative;
+		top: 4%;
 
-	/* OLSKViewportFlexbox:Parent */
-	display: flex;
-	flex-direction: column;
-}
+		padding: 10px;
+		padding-bottom: 2px;
+		border-radius: 5px;
+		border: 1px solid var(--OLSKDecorBackgroundDeepEdge);
+
+		background: var(--OLSKCommonBackground);
+
+		/* OLSKViewportFlexbox:Parent */
+		display: flex;
+		flex-direction: column;
+	}
 
 }
 
@@ -944,6 +956,18 @@ a.OLSKDecorPress {
 	
 	display: flex;
 	align-items: center;
+}
+
+@media screen and (max-width: 760px) {
+
+	.OLSKBanner {
+		padding: 4px;
+
+		display: flex;
+		align-items: center;
+		text-align: center;
+	}
+
 }
 
 /* OLSKDecorModule */
