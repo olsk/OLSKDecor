@@ -117,7 +117,7 @@ body {
 
 /* OLSKViewport */
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 764px) {
 
 	.OLSKViewport {
 		width: 90%;
@@ -133,7 +133,13 @@ body {
 		border: 1px solid var(--OLSKDecorBackgroundDeepEdge);
 
 		background: var(--OLSKCommonBackground);
+	}
 
+}
+
+@media screen and (min-width: 760px) {
+
+	.OLSKViewport {
 		/* OLSKViewportFlexbox:Parent */
 		display: flex;
 		flex-direction: column;
