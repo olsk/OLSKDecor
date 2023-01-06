@@ -140,6 +140,8 @@ body {
 @media screen and (min-width: 760px) {
 
 	.OLSKViewport {
+		height: 100%;
+		
 		/* OLSKViewportFlexbox:Parent */
 		display: flex;
 		flex-direction: column;
