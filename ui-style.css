@@ -491,6 +491,8 @@ body {
 	padding: var(--OLSKCommonInputPadding);
 	border: var(--OLSKCommonBorder);
 	border-radius: var(--OLSKBorderRadius);
+	
+	color: inherit;
 }
 
 .OLSKDecor input[type="text"], .OLSKDecor input[type="email"], .OLSKDecor textarea, .OLSKDecorInput {	
