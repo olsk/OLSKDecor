@@ -1,6 +1,6 @@
 # OLSKDecor
 
-Collection of styles powering various [OLSK](https://github.com/olsk/) modules.
+Collection of styles powering various [OLSK](https://github.com/olsk/) modules. See a demo at `index.html` or https://olsk.github.io/OLSKDecor/.
 
 ## Setup
 
