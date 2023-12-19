@@ -1064,18 +1064,31 @@ a.OLSKDecorPress {
 	margin: unset;
 }
 
-.OLSKLatest a  {
-	border-color: var(--OLSKDecorModuleForeground) !important;
+.OLSKLatest hr  {
+	background: var(--OLSKDecorModuleForeground) !important;
+	height: 0.5;
+	margin: 8px;
+	opacity: 0.3;
 }
 
-.OLSKLatest dt {
-	margin-top: 4px;
+.OLSKLatestList a {
+	display: block;
+	width: 90%;
+
+	margin-bottom: 2px;
+
+	font-size: 90%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-decoration: none;
 }
 
-.OLSKLatest dd {
+.OLSKLatestList p {
 	margin: 0 8px;
 
 	font-size: 85%;
+	opacity: 0.6;
 }
 
 /* ROCOStandardView */
