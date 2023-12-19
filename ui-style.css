@@ -1055,9 +1055,13 @@ a.OLSKDecorPress {
 	margin: 8px;
 }
 
-.OLSKLatest sup  {
+.OLSKLatest sup {
 	font-weight: lighter;
 	font-size: 70%;
+}
+
+.OLSKLatest sup a {
+	margin: unset;
 }
 
 .OLSKLatest a  {
