@@ -1041,13 +1041,9 @@ a.OLSKDecorPress {
 	color: white !important;
 }
 
-/* ROCOForum */
+/* OLSKLatest */
 
-.ROCOForum iframe {
-	width: 100%;
-}
-
-.ROCOForum {
+.OLSKLatest {
 	--OLSKDecorModuleForeground: #733132 !important;
 	padding: 10px 0;
 	border-color: #f3e5e5;
@@ -1055,12 +1051,18 @@ a.OLSKDecorPress {
 	background: #fffff1;
 }
 
-.ROCOForum h2, .ROCOForum a  {
+.OLSKLatest h2, .OLSKLatest a  {
 	margin: 8px;
 }
 
-.ROCOForum a  {
+.OLSKLatest a  {
 	border-color: var(--OLSKDecorModuleForeground) !important;
+}
+
+.OLSKLatest dd {
+	margin: 0 8px;
+
+	font-size: 85%;
 }
 
 /* ROCOStandardView */
