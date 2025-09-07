@@ -1041,9 +1041,9 @@ a.OLSKDecorPress {
 	color: white !important;
 }
 
-/* OSFeedbox */
+/* feedbox */
 
-.OSFeedbox {
+.feedbox {
 	--OLSKDecorModuleForeground: #733132 !important;
 	padding: 10px 0;
 	border-color: #f3e5e5;
@@ -1051,27 +1051,27 @@ a.OLSKDecorPress {
 	background: #fffff1;
 }
 
-.OSFeedbox h2, .OSFeedbox a  {
+.feedbox h2, .feedbox a  {
 	margin: 8px;
 }
 
-.OSFeedbox sup {
+.feedbox sup {
 	font-weight: lighter;
 	font-size: 70%;
 }
 
-.OSFeedbox sup a {
+.feedbox sup a {
 	margin: unset;
 }
 
-.OSFeedbox hr  {
+.feedbox hr  {
 	background: var(--OLSKDecorModuleForeground) !important;
 	height: 0.5;
 	margin: 8px;
 	opacity: 0.3;
 }
 
-.OSFeedboxList a {
+.feedboxList a {
 	display: block;
 	width: 90%;
 
@@ -1084,7 +1084,7 @@ a.OLSKDecorPress {
 	text-decoration: none;
 }
 
-.OSFeedboxList p {
+.feedboxList p {
 	margin: 0 8px;
 
 	font-size: 85%;
