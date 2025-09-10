@@ -1012,6 +1012,8 @@ a.OLSKDecorPress {
 	border-color: black;
 
 	background: #333;
+	
+	font-family: var(--OLSKCommonFontFamily);
 }
 
 .ROCOGazette * {
@@ -1027,6 +1029,10 @@ a.OLSKDecorPress {
 
 .ROCOGazette input::placeholder  {
 	color: grey !important;
+}
+
+.ROCOGazette h1 {
+	font-family: var(--OLSKCommonHeadingFontFamily);
 }
 
 /* OLSKJar */
