@@ -1031,7 +1031,7 @@ a.OLSKDecorPress {
 	color: grey !important;
 }
 
-.ROCOGazette h1 {
+.ROCOGazetteHeading {
 	font-family: var(--OLSKCommonHeadingFontFamily);
 }
 
