@@ -1047,56 +1047,6 @@ a.OLSKDecorPress {
 	color: white !important;
 }
 
-/* feedbox */
-
-.feedbox {
-	--OLSKDecorModuleForeground: #733132 !important;
-	padding: 10px 0;
-	border-color: #f3e5e5;
-
-	background: #fffff1;
-}
-
-.feedbox h2, .feedbox a  {
-	margin: 8px;
-}
-
-.feedbox sup {
-	font-weight: lighter;
-	font-size: 70%;
-}
-
-.feedbox sup a {
-	margin: unset;
-}
-
-.feedbox hr  {
-	background: var(--OLSKDecorModuleForeground) !important;
-	height: 0.5;
-	margin: 8px;
-	opacity: 0.3;
-}
-
-.feedboxList a {
-	display: block;
-	width: 90%;
-
-	margin-bottom: 2px;
-
-	font-size: 90%;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	text-decoration: none;
-}
-
-.feedboxList p {
-	margin: 0 8px;
-
-	font-size: 85%;
-	opacity: 0.6;
-}
-
 /* ROCOStandardView */
 
 .ROCOStandardView {
